@@ -1,0 +1,1038 @@
+INFO: Scrapy 1.8.0 started (bot: Kickstarter_Creator)
+INFO: Versions: lxml 4.4.2.0, libxml2 2.9.9, cssselect 1.1.0, parsel 1.5.2, w3lib 1.21.0, Twisted 19.10.0, Python 3.6.9 (default, Nov  7 2019, 10:44:02) - [GCC 8.3.0], pyOpenSSL 19.1.0 (OpenSSL 1.1.1d  10 Sep 2019), cryptography 2.8, Platform Linux-5.0.0-37-generic-x86_64-with-Ubuntu-18.04-bionic
+INFO: Overridden settings: {'AUTOTHROTTLE_ENABLED': True, 'BOT_NAME': 'Kickstarter_Creator', 'CONCURRENT_REQUESTS': 32, 'DOWNLOAD_DELAY': 1.5, 'NEWSPIDER_MODULE': 'Kickstarter_Creator.spiders', 'SPIDER_MODULES': ['Kickstarter_Creator.spiders'], 'USER_AGENT': 'ScrapyKickstarter (https://www.kickstarter.com)'}
+INFO: Telnet Password: 5c7944ca49af3aea
+INFO: Enabled extensions:
+['scrapy.extensions.corestats.CoreStats',
+ 'scrapy.extensions.telnet.TelnetConsole',
+ 'scrapy.extensions.memusage.MemoryUsage',
+ 'scrapy.extensions.logstats.LogStats',
+ 'scrapy.extensions.throttle.AutoThrottle']
+INFO: Enabled downloader middlewares:
+['scrapy.downloadermiddlewares.httpauth.HttpAuthMiddleware',
+ 'scrapy.downloadermiddlewares.downloadtimeout.DownloadTimeoutMiddleware',
+ 'scrapy.downloadermiddlewares.defaultheaders.DefaultHeadersMiddleware',
+ 'scrapy.downloadermiddlewares.useragent.UserAgentMiddleware',
+ 'scrapy.downloadermiddlewares.retry.RetryMiddleware',
+ 'scrapy.downloadermiddlewares.redirect.MetaRefreshMiddleware',
+ 'scrapy.downloadermiddlewares.httpcompression.HttpCompressionMiddleware',
+ 'scrapy.downloadermiddlewares.redirect.RedirectMiddleware',
+ 'scrapy.downloadermiddlewares.cookies.CookiesMiddleware',
+ 'scrapy.downloadermiddlewares.httpproxy.HttpProxyMiddleware',
+ 'scrapy.downloadermiddlewares.stats.DownloaderStats']
+INFO: Enabled spider middlewares:
+['scrapy.spidermiddlewares.httperror.HttpErrorMiddleware',
+ 'scrapy.spidermiddlewares.offsite.OffsiteMiddleware',
+ 'scrapy.spidermiddlewares.referer.RefererMiddleware',
+ 'scrapy.spidermiddlewares.urllength.UrlLengthMiddleware',
+ 'scrapy.spidermiddlewares.depth.DepthMiddleware']
+INFO: Enabled item pipelines:
+['Kickstarter_Creator.pipelines.KickstarterCreatorPipeline']
+INFO: Spider opened
+INFO: Crawled 0 pages (at 0 pages/min), scraped 0 items (at 0 items/min)
+INFO: Telnet console listening on 127.0.0.1:6023
+INFO: ['Cosmodrome Games', 'Columbia Games', 'Jack Dire', 'Blue Beard Entertainment', 'Nerdarchy', '2CGaming', 'Dice Throne', 'Jordan Draper', 'Cyanide And Happiness', 'Ninth Haven Games', 'Giga Mech Games', 'Nick Seluk', '1985 Games', 'Catalyst Games', 'Japanime Games', 'Atlas Games', 'Imperial Publishing Inc', 'Ian Haramaki', 'Lone Shark Games', 'PenTree Games', 'Marc Tassin', 'Academy Games', 'Andrew Gronosky: Shewstone Publishing', 'Tamaya Kagiya', 'DEVGRU-P Corporation', 'Expert Playing Card Company', 'Limitless Adventures', 'Broken Egg Games', 'Quest Chests', 'CMON', 'Michael Epstein', 'Daily Magic Games', 'Jealous Cat Games', 'Richard Thomas', 'Haiden Trost', 'Kingdoms of the Dump', 'Severed Books', 'Andrew Askedall', 'Travis D. Hill', 'Team Einherjar', 'BFF Gaming', 'Duane Design Works', 'Mystic Dragon Games, LLC', 'Mark H. Walker', 'Mega Cat Studios', 'schultzeworks', 'Jason Mills', 'Griffin Ess', 'Big Kid Games', 'Top Hat Studios, Inc.', 'Inexorable Media LLC', 'Canvas Temple Publishing', 'Dennis Montera', 'Stephen Lee', 'Daniel Gorin', 'Fairyship Games', 'H. Foote', 'Philip Reed', 'Red Wizard Games', 'Jeffrey Talanian', 'Rich Rogers', 'Rattle Shuttle', 'Lucky Dice Cafe', 'Mike (wrathofzombie) Evans', 'Corey Andalora', 'Pandora Games', 'NE Ware Games, LLC', 'Fortuna Playing Cards', 'Frog God Games', 'Bryce Lickfield', 'Larry Wickman &amp; GameWick Games', 'Lonely Lemming, LLC', 'Mike Guistolise', 'Steve P.', 'Adam Vass', 'Heartbeast Studios', 'Christopher Virgil', 'Gary Krieger- Genesys Games', 'Clash Dev', 'Bumblebear Games', 'Sons of the Singularity LLC', 'Danger Games', 'Taylor Smith', 'Levi Combs', 'Phil Stone', 'Crazy Bricks', 'Bryce Boone', 'TWIST Gaming', 'Hanson Bros. Gaming', 'FellowHumans', 'Roman', 'Alan Brazzell', 'Mišo Vukčević', 'Salt Forge Miniatures', 'Atomic Children', 'JS Moore', 'Thomas M. Baxa', 'Compass Games', 'Brendan O&#39;Toole', 'Battlefield Press, Inc.', 'WHISKEY DICK GAMES LLC', 'Goblinoid Games', 'Richard A. Johnson', 'Eric Brown', 'Traver Brawley', 'Tracy Barnett/Exploding Rogue Studios', 'Emanate Studios', 'Arkham Bazaar', 'Nathan D. Paoletta', 'Titanomachy Studios', 'Cinderly', 'Blake E. Davis', 'Jarin', 'Lucky Troll Games, LLC', 'Jim Dietz', 'Emmanuel Valtierra', 'Raconteur Games', 'The River Dwellers', 'Mixed Company Games', 'Tesh of Project Khopesh', 'R. Nelson Bailey', 'John H. Kohn', 'GameGeekNinja - Jerm', 'Crit For Brains', 'Avalon Digital', 'Ellofatdog', 'Dick Smith', 'ORC DAD', 'Jonathan Solis', 'Sanguine Productions LLC', 'Darrin Alston', 'Sand Box Gaming', 'Ill Gotten Games', 'Malika Harris', 'Perry Clemons', 'Tabletop Wire', 'Roman Okhrymovych', 'Praxis Prepper', 'Changer', 'Kevin Kimble', 'Pierce Fraser', 'Jack Henslee', 'Relativity Playing Cards', 'FlameStryke Games', 'King MILK', 'Tyler Gartin', 'Emmanuel Ascencio', 'Matt Martinusen', 'Red Fox Studios', 'J-Tricks Playing Cards', 'Jeffrey Jones', 'TopTier Games', 'Michael Hagan', 'Jackalope', 'Christopher Coons-Moore', 'Games by Will', 'Blue Gear Games LLC', 'Dark Dojo Studios', 'Josh Moore', 'The Ridiculous Gaming Studio', 'Elijah Miller', 'Sovereign GameWorks', 'LunaBeat', 'Mena', 'New Comet Games', 'Matthew', 'Z', 'Daniel Rowan', 'Mad Jay', 'James McCrory', 'Doris Letts', 'Richard Green', 'Hyroglf', 'Madison Catania', 'Drowning Monkeys Games', 'Patrick Devor', 'Joe Mashiah', 'Kurt Stoffer', 'Hunter Haney', 'Jim McClain', 'Who Would You TRUST?', 'Stoney Comics', 'David Millar', '10th Dimension Productions', 'Handzup', 'Frank Sanborn', 'Eric Bryan Seuthe II', 'Luis Contreras', 'CarolaJoyce', 'Digital ink', 'Svein Ronning', 'Touja A. Bowman', 'Daniel Urdzik', 'Jameson Proctor', 'Kyle Tomey', 'No Limit Games, Inc.', 'Alchemist Games', 'Fevervignettes', 'Ignite Cards', 'In Focus Design', 'Aeven Team', 'CerulianX', 'Black Card Revoked', 'SEPV Corp', 'Jason M. Shepherd', 'Kanav  Mittal', 'Mary Nesnay', 'Shannon Hall', 'Beer Land', 'Maggie de Vera/de Vera TECS Team', 'Jeremy Neipp', 'Draylon Polk', 'Caveloot.com', 'RT Wynter', 'Vince Coyner', 'Diabolical Arts', 'Dr. Danny Devine', 'Mike Osborne', 'Jacob', 'Richard Iorio II', 'David Corso', 'Michael Daniel', 'David Matson', 'Lucas Petrin', 'Tiny', 'Twingolems Studio', 'Zahir Shaikh', 'Caleb', 'Justin and Daniel', 'Brawlers unlimited', 'Matthew Deibel', 'Tim Olinger', 'Kakashi Games', 'Arnold Davidson', 'Jeremy Straughn', 'Christopher Schaeffer', 'Lucca Castrucci', 'Melissa', 'Triin0', 'Evan Carter', 'Dude Manville', 'Solomon Gayle', 'Ant Swarm', 'Hadou Lee', 'Guillemot Thomas', 'The Novak Gaming Co.', 'Greg', 'Kyle', 'Terelle Sanders', 'Thomas Tatum', 'Bennie Ray', 'Jared Cooper', 'Karl D&#39;Rocco Gallant', 'Cozy Pouch', 'GamesBrettski', 'GreenOakes RPGAids', 'Wesley Connally', 'Jai&#39;lil Banks', 'Gadget Games', 'Mario Sauceda', 'Rodney G. Walker', 'Elizabeth Barron', 'AntoNerd Games', 'Brian J. Kaufman &amp; Martin F. Swinger', 'Endless Paths', 'Tyler Tomaszkiewicz', 'Joseph Metzger', 'Cameron Dus', 'Goon Toons', 'Justin Scott', 'Quests Of Heart LLC', 'Seth Sprecher', 'Black Oak Workshop', 'Jordan Turley', 'Kayla Burnight', 'Resean Moore jr', 'Dan Letzring', 'Matthew Grau', 'Peter Leontescu', 'Josh Neese', 'Zack Able-Leary', 'Mike Wolferstieg', 'Jason Leslie Rogers, Advantage Roleplay', 'Norse Foundry', 'Riley Gabrielson', 'DNE Labs', 'D-Verse Publishing, LLC', 'Hrothgar&#39;s Hoard', 'Eldon Harris', 'Sam Browning', 'Stupid Puppy Games', 'Mikal Saltveit', 'Stone Bones Games', 'Cody Beatty', 'Omey Salvi', 'Chris Banciu', 'Michael Hopcroft', 'Solving Mysteries 101', 'Aeroux', 'Ryan Wolfe', 'Matt Fox', 'Doug Wilson', 'Leah Pantéa', 'SrslygobuyOTR', 'Stevenson Streeper', 'Makayla holton', 'Starving Lama', 'Jason Wright', 'Mike', 'WheelCraft Studio', 'Cloud M1 LLC', 'RareBreed makes Games', 'Paul LaPorte', 'Anna Dadones', 'Zak Mirzadeh', 'Jonathan Mariucci', 'Tim P. GMing', 'Aubrey Massey', 'BestMattEver', 'Michael Shoots', 'Toresh Games', 'Halsbren Publishing LLC', 'Ben Schulman', 'White Sea Games', 'Max Hervieux', 'Ronan Games', 'Jill Poisson', 'Drew A. Bailey', 'Nick D&#39;Angelo', 'James Streissand', 'Bully Pulpit Games', 'Curator', 'Mick McArt', 'Sare Sai', 'Sean Filkins', 'Antoinette', 'Vincent Baker', 'Luke Krudwig', 'Nerdy City', 'Dynamic Gorilla', 'Munchkin Metropolis', 'Slow Your Roll', 'Astrovii', 'Geneva Joy', 'SynahMoon Meroe', 'Clover Ross', 'Thomas', 'Skirmisher Publishing LLC', 'Penguin Magic', 'aniPlay', 'Kyle Cheney', 'Circle Up Stories', 'Intersky', 'Russell', 'Eleanor (Ella) Yates', 'Longchang Cui', '~Durella~ -Flike-', 'jimmy lee', 'Chunbum Park', 'Adam Jerald Schneekloth', 'Little Rock Games', 'Ryan Laukat', 'Dan Ackerman', 'Dan Verssen Games', 'Afterburner Studios', 'Kathryn Poduska', 'Nicole Carr', 'UBG – Unique Board Games LLC', 'Doc&#39;s Playing Cards', 'Doug Levandowski', 'Riley Rethal', 'Tim Shields', 'Petry Bros Games', 'Jeffery Thompson', 'Twilight Creations, Inc.', 'Benjamin Cole', 'Daniel Salcido', 'Joshua Mason', 'Saving Eagles', 'Sean Laughlin', 'Tiger Board Games', 'Roberto Lopez', 'Two Vikings Custom Creations', 'Romney and Brady from Skipshot Games', 'Wyrmkeep Entertainment', 'Sean Healey', 'J.M. Ward', 'Dustin Huffer', 'Grown Men Games', 'Human Things', 'J. Evans Payne', 'LucasMaxBros', 'Kraig Kalashian', 'Gamelyn Games', 'John Pinto', 'John Christiansen', 'John Griffin', 'Heli Hernandez', 'Niya Bowman', 'Heather Flowers', 'David Shugars', 'Andy Tsen', 'Francis Garcia', 'W.S. Quinton', 'Boyd&#39;s Toys', 'Gregory McCleary', 'Legends of Ravenhall', 'OTUSUN LAND', 'Alan Frank', 'Anthony Rogers', 'Snake Eyes Gaming', '2 Pixels', 'Frederick Miranda', 'Marvin Patterson', 'Panda Cult Games', 'Sean Äaberg', 'Stephen Chenault', 'Queen Games', 'Noble Dwarf Printing', 'First Legion', 'Monte Cook Games', 'Dr. Finn&#39;s Games', 'The Cardster', 'SkeletonKey Games', 'Jennifer Jones', 'Aaron T. Crawford', 'Jason Nguyen', 'TSR Games', 'D.D.O&#39;Brien', 'Riley and Tim', 'C4 Labs', 'Grey Fox Games', 'Seth Reynolds', 'Michele Hartsoe', 'Hunter Mitchell', 'Jonathan Concepcion', 'MiaCat Enterprises, LLC', 'Niqo', 'Dustin Slagle', 'cameron muraski', 'John Tomlinson', 'Nor Cal Mythos', 'Stephens Woodworks', 'SevenThirteenBooks', 'Coleco', 'Tim Fowers', 'Pixel Demon Studios', 'Zagora Games LLC', 'Water Bear Games (Marcus R.)', 'Anthony Lawson', 'Tim Krause', 'Tomb Guardians', 'Steam Kitty Games Ltd.', 'Box Cat Entertainment', 'Rheno', 'CABOBEAN', 'Marcelo Arreola Jr', 'Eagle Games', 'JOSHUA', 'Ray Bakerjian', 'impeckable', 'Travis McHenry', 'One Small Step Games', 'ArtOrder', 'Hitherto Coffee &amp; Gaming Parlour', 'Breachstorm', 'The Merciless Merchants', 'FractalCake', 'Charlie Reeder', 'Studio Noir, LLC', 'Emily Solomon', 'Nissim Amar', 'Bradley Crouch', 'Dakota Stuart', 'berry', 'Kenzer and Company', 'Matt Baume', 'Midwinter Mages', 'William Charles Chamberlin', 'William Murakami-Brundage', 'Fisholith', 'Steve Jackson Games', 'Don Peterson', 'Horse Play Games', 'Stephanie Fairchild Fister', 'Grid+Lock Terrain System', 'College Town Trivia Decks', 'Sam Maday', 'Sara Earle', 'The Enigma Emporium', 'Legends of Signum', 'Maher Sagrillo', 'Courtney', 'CardLords', 'Brybelly', 'Easy Roller Dice Company', 'Mike P Bruner', 'Kid Loves Tiger Games', 'Justin Ricafort', 'Guilty Until Proven Innocent LLC', 'Steven Hogan', 'Richard Garfield and Ken Jennings', 'Monster Fight Club', 'Jasco Games', 'Exantra Teams', 'Chance Phillips', 'Bob Lehman', 'Yvonne  Burgamy', 'Steadman Watson', 'Lunatic Rpgs', 'Nick Marinello', 'WitchMagica', 'Brian S. Roe', 'Daniel Diaz Brauch', 'Codes Card Games', 'Jevohn Miller', 'Rungy Singhal', 'Waking Oni', 'Riffle Shuffle', 'Squamous Studios', 'Carl Salminen', 'Sam "Fantabuloso" McCallum', 'Gregaireous Gaming LLC', 'Gold Digital Studio', 'Bluembo Entertainment', 'Derrick Charbonnet', 'Thom Wilson', 'Douglas Sun', 'KCRift', 'Cristyn A', 'Sean H Bullough', 'Zone Master Productions', 'HogDoggins', 'Malik and Michelle Perry', 'El Dorado Games', 'Luke Peterschmidt', 'Matthew and Mark McLachlan', 'Robert Dougherty', 'Adam Sadiq', 'Justin D Leingang', 'Wet Ink Games', 'minor gods', 'Bear Clan Creative', 'Rick Medina &amp; Vanette Kosman', 'Festive Fantsy', 'Hanafubuki', 'Jodi and Clint Black', 'Brian Combs', 'Joshua bodor', 'Andrew Brock', 'Randy Gordon', 'Dynamic Voltage Games', 'Socialbambi', 'Andy "Cosmo-Joe" Watkins', 'Fantasy Coin, LLC', 'Miniature Building Authority, Inc.', 'Sazaky Games', 'Days With Demoness Team', 'ARNIMATE', 'Moe Poplar', 'Zestar Games', 'Ashli Bugby', 'Nancy', 'Make Playing Cards - MPC', 'Picklefeet Games', 'Patrick Collier', 'Joseph Meehan', 'Skaggsoft', 'Matthew Paluch', 'Robert Lee Rodems', 'Eric', 'Marcus and Katie Erickson', 'Peter Newland', 'Sean Teevan and Alexander Daise', 'Rainier Environmental', 'Light Entertainment, LLC', 'Jeremiah Render', 'Card Sharks!', 'EMC LED LLC', 'East Ridge Studios', 'M Hemstreet', 'Ralph Wong', 'Old School Wargames', 'Handlordz LLC', 'Optovania', 'Bullseye Bombers', 'Joshua Blair', 'Peter Fortin', 'Nurtai kerbenbaev', 'Doug Presley', 'Dee Kochurov', 'Confer Frolic Center', 'Angel Perez', 'QuickPlay', 'Imperial Terrain', 'EndGame Gaming', 'Random Encounter Productions', 'Vorpal Entertainment', 'Josiah Lebowitz', 'Logan Gendron', 'CRY ME A RIVER', 'Robert Ralph Smith', 'Dark Galaxies Gaming', 'Christopher Vann', 'ArbalestStudios', 'Affektiv Games', 'Herbie, Angel, and Raccoon', 'Game Brewer', 'Warehouse 23', 'pawnjoker', 'Simian Circle Games', 'Madcap Miniatures', 'GoChuckle', 'Brandon Keith Fero', 'Beawesome Games', 'Argonauts Incorporated', 'cGh ONE', 'J Duncan', 'IV Studios', 'Wyrmwood Gaming', 'Greg Leatherman', 'Gemhammer Games', 'Skyler Innovations', 'Eric Brunsell', 'Fablesoft Studios', 'Luke Stern and Sam Wander', 'Jeffrey Bookman', 'Revery Rebirth', 'Aaron Cain', 'Neon Mu Games', 'Ron Francesangelo', 'Kevin Beal', 'Kayla Pickana', 'UncensoredHumors', 'Side Room Games', 'atomsy', 'Wits &amp; Giggles Gaming', 'Trevor Cuba', 'Erik Henriksen', 'Inner Dimension Team', 'John Kocalis', 'Perry Languirand', 'Evan Carothers', 'Kolossal Games', 'Swabbed Decks', 'Martin Klubeck', 'Luke Areekul', 'Anthony Pezzetti', 'DreamWorld AR', 'Jacob DC Ross', 'dan smith', 'Nick and Jake', 'Do or Drink', 'Evelyn Cao', 'Mauricio Pavon', 'Gage Doran', 'Sam Coniglio', 'Samantha Barbot', 'Stephen Newton', 'Richard Kelly', 'Game Genius LLC', 'root', 'Paul Nashert', 'Jamila Sufi', 'Ryan', 'Cody Sullivan', 'Aaron Frias', 'Darkraven Games', 'Joshua Seth', 'Eric Harrison', 'Camille Smooch', 'Marco Warren', 'Five24 Labs', 'Zach Connelly', 'Sandy Petersen', 'Cave of Monsters Games', 'Ryan Borgeson', 'Late Fee Games', 'David McBride', 'Wicked Foundations Games and Accessories', 'Status Effect Games LLC', 'Aristocrat Games', 'Karolee Krause', 'asar lewis', 'Dyman', 'Maxwell', 'Starsoft', 'Andreas Walters', 'Levi (ivel) Rosol', 'Sky Kingdom Games', 'Inkwell Games', 'Douglas H. Cole', 'Purple Wizard', 'Glass Knights', 'Caias Ward / TaleSpinner Holdings', 'Justin Spath, Space Daddy Games', 'Keith Burgun', 'Howling Hog Games', 'The Adventure Challenge', 'Megan Carnes', 'Upside Down Games', 'Quartermoon Gaming', 'Jimmy Tim Fry', 'Synception Studios', 'Robert Brewer', 'MemWars', 'EngageGames', 'Elder Wood', 'Robert J Schwalb', 'A.J. Porfirio', 'Pandasaurus Games', 'Kayenta Games', 'Black Key Games', 'Felipe Diz', 'Mia Kay', 'Sandy Pug Games', 'Onyx Path', 'Thomas Foss', 'Brooks Gibbs', 'Deep Dungeon Games', 'Golden Goblin Press', 'White Flag Games', 'RPFab LLC', 'Laura Hammonds', 'Brian Sowers', 'Eloy Lasanta', 'Len Kendall', 'Mocha Games', 'Robert M.', 'To The Death! Games &amp; Pastimes', 'Strange Aeon Games', 'paNik productions', 'Gyro Taco Games', 'Matt Fitzwater', 'Travis Britten', 'Zero Percent Juice', 'D20 Woodworking', 'Slow Death Games', 'Daniel Wightman', 'Kevin L Suffecool', 'Stephanie Chambers - Merri Mysteries Inc', 'Mr. B. Games', 'Gwythdarian LLC', 'TableTop Knights', 'Daniel Brazell', 'Curran Mulvihill', 'Chef Party', 'Josh Hina', 'John Locke', 'Inferno Interactive', 'Byron Bland', 'Tyler King', 'Robert A Cortez Jr', 'Douglas', 'Peter Morales', 'Chadwick Bicknell', 'Artem Lugin', 'ORBITSTAR', 'Julian Rosado', 'Zero Fucks Given', 'Starling Games', 'Penguin &amp; Panda Productions', 'Magpie Games', 'Craig Campbell', 'James R. Eads', 'Liz Gattra', 'Robert Turk', 'Christopher Grey', 'We Ride Games', 'Experience Institute', 'Tom @ Tabletop Things', 'Mathew Sisson', 'Al McWilliams', 'krakenships Miniatures', 'Joe Marx', '3DRogue', 'RetrosaurDev', 'Nikki schultz', 'De&#39; Lamar Technologies', 'Jeremiah Donaldson', 'Isaiah', 'Seppy Yoon', 'DangerToadGames', 'Jason Robinette', 'Andreas Dilling', 'Sherrod', 'George Games LLC', 'When I Get Free', 'Jumbo Commander', 'SlugFest Games', 'Renegade Game Studios', 'Magick and Mediums', 'VietAnh D. Nguyen', 'Colin Audet', 'Long Story Studios', 'Zach Wahls', 'Mikamiga Studios LLC', 'Sean Mitchell', 'Matthew Zerbe', 'Aidan Gignac', 'Mystic.Realm', 'Top Secret Press', 'Vendetta Games', 'Pipsolo', 'Bobby Alexander', 'Jerry Joe Seltzer', 'Great Gretuski Studios', 'Michael Albrow', 'Tryck Studios', 'Gnaw', 'Game Fall LLC', 'XYZ Game Labs', 'Jeff Beck, Uproarious Games', 'Open Door Games LLC', '12 East Games', 'Trevor P Hyde', 'Tautvydas Kaltenis', 'Michael E Day', 'Atheris Entertainment', 'Puzzling Pixel Games', 'Alderac Entertainment Group', 'Deep Water Games', 'Chad Elkins', 'Innocent Traveler Games', 'Michael Melkonian', 'PassioneTeam', 'Treasure Falls Games', 'Talon Strikes Studios', 'Dragon Phoenix Games', 'DUANE CARDINEZ', 'Lonely Hero Games', 'John Thompson', 'Gary Chavez', 'Real Good Fun', 'Toby Ragaini', 'Amarik', 'Game Nite', 'Awander', 'Chase', 'Dungeon in a Box', 'Fred Hicks / Evil Hat Productions', 'Broken Dice', 'Dream Machine Co.', 'Cigar Box Battle', 'Parker Coppins', 'Justin Thompson', 'Sinopa Publishing LLC', 'Bearowl Studios', 'Tamara Oniani', 'Rose A.', 'BodEBall', 'John Stancil', 'Aigul Aubanova', 'Matthew Matsumoto', 'Gerome Singleterry', 'Waunya Rocio', 'Exalted Funeral', 'Chris Spivey, Darker Hue Studios', 'Will Roya', 'Christopher Ferguson', 'Hailey Winkleman', 'Mark Hanny', 'All The King&#39;s Games', 'Chimera Labs', 'Jeremy Bronaugh', 'VoidHook', 'Reaper Miniatures', 'Scott Taylor', 'Chad Walker', 'Mythic Games, Inc.', 'Kobold Press', 'Brian Rauch', 'Corey Cole', 'Lucian Kahn', 'John Wrot!', 'Ralph Levi Clark', 'Burning River Games™, LLC', 'Mad Cactus Labs', 'Sarah Rowan', 'Lemnisca LLC', 'Jason Bodnar', 'Dinmoney', 'William Dalebout', 'Jim Fox', 'Lost Age Games', 'Black Garden', 'Card Culture', 'Majestic Moose Games', 'MJL Productions and Jason Troiano', 'feartheboot', 'Aspen Leaf Games LLC', 'What4 Games', 'Orcs Unlimited', 'babachoo', 'David Clark', 'Ryan Blevins', 'Color Swap', 'Bryan Corbett', 'Doug Weldon', 'Andy Natusch', 'Dog Might Games', 'Studio Élan', 'Old Gravity', 'Gaming Honors', 'Dustan James Ross', 'Thomas Deeny', 'Dark-Platypus Studio', 'M. S. Farzan', 'Christoph', 'Steven Nelson', 'Neil Collier', 'Alexis H.', 'Bad Symphony Productions', 'Shattered Terrain LLC', 'Stephania &amp; Shawn', 'Matt', 'Angelica Case', 'Tyler Hurdle', 'Jason Vey', 'Game That Song', 'mechlinski', 'Fennec Gaming LLC', 'steve wallen', 'Tiny Hands', 'Gavriel &#39;Discordia&#39;', 'Skjöld Game Studio', 'Haunted Box', 'States Game', 'In All Series-Ness', 'Jasn Painter', 'Gold Nugget Games (Cody Thompson)', 'SHM Publishing', 'Digital Wizards', 'Shawn Bridegam', 'XNO LLC', 'kevin le', 'Brendan', 'Nicholas Hand', 'Julian M. Rice', 'Austin Lopez', 'Gabe Hicks', 'Gamers Tool Kit', 'Herbert Hoover', 'Studio Senpai', 'Ben Alegre', 'Terrell Bell', 'John Kelly', 'David Marques', 'Mother Multiverse Media', 'Charles Grae', 'Mordite Press', 'Kimberley Fisher', 'Ty Hulse', 'Gilgamesh Games', 'Worthington Publishing', 'Playper', 'Prevail Card, LLC', 'Sheski Games', 'Goblin Toe Games', 'RJLYSS', 'Gregory Cloninger', 'Shadowborne Games', 'Kevin Crawford', 'Shardstone', 'Ben Harkins', 'P3 Studio', 'Foxtrot Games', 'Agitcom', 'Cryptic Creative', 'Indoctrination', 'J Li', 'Greg Franseth and Chris Grzywacz', '2 Kings Games, LLC', 'Andy Kurovets', 'Casey Allen', 'Gage Gwaltney', 'Dane Asmund', 'Strollart Studios', 'Alexander Petty', 'Sorcery Tempest', 'Flame Point Games', 'DarkStone Digital', 'Megacosm', 'Jason Tagmire', 'Christine Ward', 'After', 'Chris Pow', 'Jason Clark', 'Jay', 'Lance Stucker', 'E.B.', 'Tilt Five', 'FLATOUT GAMES', 'The Castle Foundry', 'South Arcadia', 'Kevin C. Reaves', 'Jump Game Studio', 'B-Clan Games', 'Nicole Zeigler', 'Thyyen Ta', 'TMP Games', 'VaporSoft', 'The Last Gameboard', 'Jared Hall', 'matrioshkagames', 'Jesse Reich', 'Kevin Paul Tracy', 'Taylor Vowell', 'Hat on a Flower Studio', 'Ryan McKinney', 'StepinkGames', 'Furzam', 'Walter Ward', 'Mega Ran', 'GB Patch', 'Studio Fawn', 'Kaimaki Games', '4Life Playing Cards', 'The Well Suited Playing Card Company', 'Siavash Mortazavi', 'Apocalyptic Games', 'Lisa @ GameCraft', 'Fred Poutre', 'Matt Gregory', 'Anthony Salvaty', 'Adam Taubenheim', 'Alex Hetrick', 'Saltie Games LLC', 'josue Callejas', 'Joe Decker', 'Outer Planet Models', 'Bernard Buranelli', 'Divergent Engine Studios', 'Fort Circle', 'Joshua McMurray', 'KJB Cards', 'Tchalla', 'Jonathan', 'Fervir', 'John Popson', 'Haasio', 'Derek McKee', 'The Bigfoot Press', 'James Jacobs', 'Alloy Models', 'Current and Stone Games', 'PULL THE PIN GAMES', 'Gabe Barrett', 'James', 'Certifiable Studios', 'Nathan Meunier', 'Dead Alive Games', 'Jordan', 'Meeple Source', 'Eric Bloat', 'Jayson Smith with Gold Cauldron Games', 'Void Knight Games', 'GnarlyTree', 'Elijah Kellogg', 'Brian Shoemaker', 'ModestMedusaMinis', 'Two Tweets &amp; A Lie', 'Pers® Corporation', 'Michael Mindes', 'Hard as Cheese', 'Mitch Turck', 'David Santiago', 'Two Silver Denarii, LLC', 'FLAG Games', 'Brian Fowler', 'Trace Cooper', 'Two Dumb Bros', '360 Box', 'Rocket Pig Games', 'toggleSwitch', 'Dan Grek (Concrete Canoe Games)', 'Christopher Moore', 'Tough Zebra Inc.', 'Lucas Howard', 'Reigneer Nabong', 'Crystal Arnold', 'Justin Kamm', 'Joshua Starr', 'Greg Favro', 'Sonic Sorcerer', 'Bob Murphy', '3D graphics', 'James Morris', 'House of Argento', 'Nelson Bursch', 'John Sylvain', 'Side Group', 'Jacob Wood', 'Zachary Epstein', 'Sidney Reed', 'Meehow', 'Dylan', 'Zachary', 'Panda Procrastinator', 'Transflux Playing Cards', 'Mainframe GG', 'Shawn Robinson', 'Shades of Vengeance', 'Matt Colville', 'Andrew J. Smith', 'The TESA Collective', 'August Games', 'Christopher Brown', '3D-Printcraft.com', 'Debbie Billings', 'Matthew Hawkins', 'Park &amp; Parade', 'The GameSmiths', 'Forcz', 'Reim Entertainment', 'InfiVention Technologies', 'Open Ended Games', 'Joseph Liano', 'Necromancer Games', 'Dustin Hendrickson', 'Windwalk Games', 'Richard Malena-Webber', 'Paul Starr', 'Bread And Circuses', 'Joshua LH Burnett', 'Joyful Mathematics', 'Fairygon', 'Chris Romansky', 'Joshua and Jennifer Warfel', 'Quantum Ogre', 'Matt Vojacek', 'Cheeky Dingo Games', 'Toro L.', 'Amazing Card Games', 'The American Dream', 'Frank Lantz', 'Three Pawns', 'IDW Games', 'Campfire Studios', 'Josh Inch', 'Sarah Herrmann', 'Neptune Studios', 'Dan Hainsworth', 'Jordan Duff', 'Chris Srch', 'Seniattus Studios', 'Kevin Bannister', 'Jason "Journeyman Blacksmith" Henderson', 'Kevin B. Cole', 'James Eisert', 'James A. Pozenel, Jr.', 'Perpetual Arts &amp; Design Company', 'Battlegrounds Games, LLC', 'Austin Gardner', 'Seth Hiatt', 'RBJ Game Company', 'Zan&#39;s Adventures', 'Lil&#39; Witch Games', 'Award Winning Games', 'ROBIN RICHARDS', 'Zach Brooks', 'Tracy Thompson', 'Aurora Studios', 'Sierra Madre Games', 'Nathan Hatch', 'Greg Traw', 'Tim Jenkins', 'Rebel Minis', 'Another Game Company', 'Junior Martinez', 'Rugby Glory LLC', 'Jim Wampler', 'Playing Cards Dot Net', 'David Abelson - Fisher Heaton Games', 'Tau Ceti Studios', 'Brain Sandwich Games', 'Colin John Muntz', 'John Olsen', 'Jeff Gurkin-Young', 'Dino Bot', 'Virtual Elements', 'Creative Games Studio', 'New Wave Toys', 'Albino Dragon', 'Modern Awesome Labs', 'Blind Visionary Publications', 'Magicorn Sisters', 'Vitamin D Games', 'Lorenzo Cobo', 'Braden Astle', 'Gozer Games', 'Sarah (WildFan)', 'QT Games LLC', 'Frozen Ninja 3D', 'Doug Hoppes', 'swvls', 'Carl Huff', 'Elemental Strategies LLC', 'Fish in the Pot', 'Archimedes Game Co', 'Sonya Fung', 'Caleb Morton', 'Will Uhl', 'PHAT Workshop LLC', 'Namedrop', 'Jason Kinsey', 'Lorraine Spektor', 'No Nut November', 'Sofia Wimer', 'Activate Games', 'Darron Trowbridge', 'Andrea Elizabeth', 'Headcannon', 'Mighty Boards', 'Dirk Leichty', 'Cherie Gerhardt', 'Joel Loughrin', 'Ed Teixeira', 'Krimson Horse Entertainment', 'HellBringers', 'Alex @ Nat20 Rentals', 'Robert Fifer creator QwikWit Games', 'Lubomir', 'Meros Entertainment LLC', 'Mike, Dave and Mike', 'Wannabe Games', 'Ray Osborne', 'Mortal Arrow', 'Density Media', 'Funsparks', 'Caz Game Design', 'Glovis Grimple', 'David Goldklang', 'Steve Sekula', 'Steve Green', 'Justin Hillgrove', 'Sue Ann Derkach', 'Jonathan Scalese', 'Matt Guttentag', 'Zachary Stevens', 'Brent Dickman (Elf Creek Games)', 'Exocrate Games', 'Shane Hensley', 'GeekOn!', 'Blacklist Games', 'Artana LLC', 'Real Welders', 'PYE Games', 'Yamila Abraham', 'Ben Sandfelder', 'Jeremy Gosser', 'Michael Addison', 'Kazoodoo Games', 'Homunculus Games', 'Mafia World Game, Inc', 'A Memory of Eternity', 'Reality Check', 'Jeff Copeland', 'Stede Lindgren', 'Aaron aka "Goat"', 'Team Bluefish', 'Anhvu', 'Jackwagon', 'Angel Newman', 'Wooded Meadows Gaming', 'Reclusive Phoenix (fka Warchild40k)', 'Zenrok Studios LLC', 'Dispel Dice', 'Jason Brooks', 'Matt Sinor', 'Matt Bohnhoff', 'Mount 21 Productions', 'Kendall Rust', 'Tombstone Crits', 'Mark Taormino', 'Jeff Mumm', 'IndianWolf Studios LLC', 'C. Aaron Kreader', 'Double Turn Games', 'Waddling Panda', 'Justin Richer', 'Christopher M Morris', 'cylus tree', 'Riley Hopkins', '1zec team', 'Jeffrey Daymont', 'John Lazration', 'Brandon Simmons', 'AntiMatter Games', 'Troy', 'Intoxicating Games', 'Saturday&#39;s a Rugby Day', 'Marissa', 'offcut games', 'Timothy Holt', 'Miguel Martinez', 'Jacob Morris', 'James Chapman', 'Roger Douglas', 'Modular Games HQ LLC', 'Q.Creates', 'Edenryse Studios', 'White Cherry Games', 'Game Tank', 'Verge Games', 'Chad DeShon', 'Randy Butterfield (Midnight Cards)', 'Stitchcraft Press', 'Postworldgames Jim Pinto', 'EmilySleights52', 'miket', 'Jesser &amp; Kris London', 'Red Dog Minis', 'Ikie Corbin', 'Friends From Work', 'Karam Al-Kofahi', 'Chase Taylor', 'Jin H', 'Alvaro Erize', 'Basket of Adorables', 'Quinn', 'Angel Leigh McCoy', 'Adam Gerstin', 'Alex Trichon', 'Ron Sanecki', 'Everything Epic', 'Ellusionist', 'Ray Wehrs', 'Arthur Pittsley', 'Captain Carl', 'Sleepless Inc.', 'Cory Saunders', 'Archangel Design', 'Jay Stilipec', 'Eli Arndt', 'DPH Games Inc', 'Rabbiteer', 'Lyons Den Studios', 'Telken Lost', 'Beedo', 'FlickWish Studios', 'Siggy', 'Ence Gaming', 'Stronghold Press Games', 'Brandon Ecroso', 'Blue Flame Games', 'BiteSizedGaming', 'Newbury Rain', 'Flying Carpet Games', 'Yash Jain', 'Travis Holt Hamilton', 'Steve Hamilton', 'Diemension Games', 'Crafty Games', 'Mike Gnade', 'Alan Gerding', 'David Gerrard', 'Zipperon Disney', 'Barbaric Splendor', 'Brian Meece', 'Grant Takara', 'Chip Brown', 'Martin Gallagher', 'Bill Arnold', 'David Compton', 'Spare Parts', 'Jack LaPlante', 'Ron Z', 'Kozz', 'Pacesetter Games &amp; Simulations', 'Dynamite Entertainment', 'Jessica Feinberg']
+DEBUG: Crawled (200) <GET https://www.kickstarter.com/projects/gamescape3d/2-tower-a-tall-tale-for-3d-printing-free-siege-tower> (referer: None)
+INFO: Parse function called on https://www.kickstarter.com/projects/gamescape3d/2-tower-a-tall-tale-for-3d-printing-free-siege-tower
+INFO: DUPLICATE CREATOR
+DEBUG: Crawled (200) <GET https://www.kickstarter.com/projects/nerdypupgames/the-curse-of-the-house-of-rookwood> (referer: None)
+INFO: Parse function called on https://www.kickstarter.com/projects/nerdypupgames/the-curse-of-the-house-of-rookwood
+INFO: DUPLICATE CREATOR
+DEBUG: Crawled (200) <GET https://www.kickstarter.com/projects/endlessmemories/endless-memories> (referer: None)
+INFO: Parse function called on https://www.kickstarter.com/projects/endlessmemories/endless-memories
+INFO: DUPLICATE CREATOR
+DEBUG: Crawled (200) <GET https://www.kickstarter.com/projects/gangstars/mafia-crime-scene> (referer: None)
+INFO: Parse function called on https://www.kickstarter.com/projects/gangstars/mafia-crime-scene
+INFO: DUPLICATE CREATOR
+DEBUG: Crawled (200) <GET https://www.kickstarter.com/projects/1619485858/memoirs-of-a-battle-brothel> (referer: None)
+INFO: Parse function called on https://www.kickstarter.com/projects/1619485858/memoirs-of-a-battle-brothel
+INFO: DUPLICATE CREATOR
+DEBUG: Crawled (200) <GET https://www.kickstarter.com/projects/gameofprivilege/reality-check-the-game-of-privilege> (referer: None)
+INFO: Parse function called on https://www.kickstarter.com/projects/gameofprivilege/reality-check-the-game-of-privilege
+INFO: DUPLICATE CREATOR
+DEBUG: Crawled (200) <GET https://www.kickstarter.com/projects/copelandmagic/flhex-deck-playing-cards> (referer: None)
+INFO: Parse function called on https://www.kickstarter.com/projects/copelandmagic/flhex-deck-playing-cards
+INFO: DUPLICATE CREATOR
+DEBUG: Crawled (200) <GET https://www.kickstarter.com/projects/1865945849/quest-0> (referer: None)
+INFO: Parse function called on https://www.kickstarter.com/projects/1865945849/quest-0
+INFO: DUPLICATE CREATOR
+DEBUG: Crawled (200) <GET https://www.kickstarter.com/projects/1598930181/fill-in-the-game-the-relaunch> (referer: None)
+INFO: Parse function called on https://www.kickstarter.com/projects/1598930181/fill-in-the-game-the-relaunch
+INFO: DUPLICATE CREATOR
+DEBUG: Crawled (200) <GET https://www.kickstarter.com/projects/goatdangle/goatdangle-the-party-game> (referer: None)
+INFO: Parse function called on https://www.kickstarter.com/projects/goatdangle/goatdangle-the-party-game
+INFO: DUPLICATE CREATOR
+DEBUG: Crawled (200) <GET https://www.kickstarter.com/projects/teambluefish/the-curious-elevator-of-mr-hincks> (referer: None)
+INFO: Parse function called on https://www.kickstarter.com/projects/teambluefish/the-curious-elevator-of-mr-hincks
+INFO: DUPLICATE CREATOR
+DEBUG: Crawled (200) <GET https://www.kickstarter.com/projects/anhvule/king-hung-era> (referer: None)
+INFO: Parse function called on https://www.kickstarter.com/projects/anhvule/king-hung-era
+INFO: DUPLICATE CREATOR
+DEBUG: Crawled (200) <GET https://www.kickstarter.com/projects/jackwagon/slapmonkey> (referer: None)
+INFO: Parse function called on https://www.kickstarter.com/projects/jackwagon/slapmonkey
+INFO: DUPLICATE CREATOR
+DEBUG: Crawled (200) <GET https://www.kickstarter.com/projects/whoamongus/who-among-us-0> (referer: None)
+INFO: Parse function called on https://www.kickstarter.com/projects/whoamongus/who-among-us-0
+INFO: DUPLICATE CREATOR
+DEBUG: Crawled (200) <GET https://www.kickstarter.com/projects/woodedmeadows/customizable-mini-dice-boxes-by-wooded-meadows-gaming> (referer: None)
+INFO: Parse function called on https://www.kickstarter.com/projects/woodedmeadows/customizable-mini-dice-boxes-by-wooded-meadows-gaming
+INFO: DUPLICATE CREATOR
+DEBUG: Crawled (200) <GET https://www.kickstarter.com/projects/reclusivephoenix/slumbering-oblivion-cthulhu-themed-miniatures-war-game> (referer: None)
+INFO: Parse function called on https://www.kickstarter.com/projects/reclusivephoenix/slumbering-oblivion-cthulhu-themed-miniatures-war-game
+INFO: DUPLICATE CREATOR
+DEBUG: Crawled (200) <GET https://www.kickstarter.com/projects/wormholecity/starglades> (referer: None)
+INFO: Parse function called on https://www.kickstarter.com/projects/wormholecity/starglades
+INFO: DUPLICATE CREATOR
+DEBUG: Crawled (200) <GET https://www.kickstarter.com/projects/dispeldice/dispel-dice> (referer: None)
+INFO: Parse function called on https://www.kickstarter.com/projects/dispeldice/dispel-dice
+INFO: DUPLICATE CREATOR
+DEBUG: Crawled (200) <GET https://www.kickstarter.com/projects/339646881/mummy-the-curse-2nd-edition> (referer: None)
+INFO: Parse function called on https://www.kickstarter.com/projects/339646881/mummy-the-curse-2nd-edition
+INFO: DUPLICATE CREATOR
+DEBUG: Crawled (200) <GET https://www.kickstarter.com/projects/brookspungames/legacies> (referer: None)
+INFO: Parse function called on https://www.kickstarter.com/projects/brookspungames/legacies
+INFO: DUPLICATE CREATOR
+DEBUG: Crawled (200) <GET https://www.kickstarter.com/projects/shaded-areas/a-better-dnd-campaign-notebook> (referer: None)
+INFO: Parse function called on https://www.kickstarter.com/projects/shaded-areas/a-better-dnd-campaign-notebook
+INFO: DUPLICATE CREATOR
+DEBUG: Crawled (200) <GET https://www.kickstarter.com/projects/1039349815/dungeon-doodles-fifth-edition-creature-cards-for-kids> (referer: None)
+INFO: Parse function called on https://www.kickstarter.com/projects/1039349815/dungeon-doodles-fifth-edition-creature-cards-for-kids
+INFO: DUPLICATE CREATOR
+DEBUG: Crawled (200) <GET https://www.kickstarter.com/projects/1469878195/new-mexicon-2020> (referer: None)
+INFO: Parse function called on https://www.kickstarter.com/projects/1469878195/new-mexicon-2020
+INFO: DUPLICATE CREATOR
+DEBUG: Crawled (200) <GET https://www.kickstarter.com/projects/truefrenemies/true-frenemies> (referer: None)
+INFO: Parse function called on https://www.kickstarter.com/projects/truefrenemies/true-frenemies
+INFO: DUPLICATE CREATOR
+DEBUG: Crawled (200) <GET https://www.kickstarter.com/projects/33843392/dragon-acres> (referer: None)
+INFO: Parse function called on https://www.kickstarter.com/projects/33843392/dragon-acres
+INFO: DUPLICATE CREATOR
+DEBUG: Crawled (200) <GET https://www.kickstarter.com/projects/cerulianx/survivalcrafter> (referer: None)
+INFO: Parse function called on https://www.kickstarter.com/projects/cerulianx/survivalcrafter
+INFO: DUPLICATE CREATOR
+DEBUG: Crawled (200) <GET https://www.kickstarter.com/projects/tombstonecrits/tombstone-crits-the-next-stage-of-an-amazing-journey> (referer: None)
+INFO: Parse function called on https://www.kickstarter.com/projects/tombstonecrits/tombstone-crits-the-next-stage-of-an-amazing-journey
+INFO: DUPLICATE CREATOR
+DEBUG: Crawled (200) <GET https://www.kickstarter.com/projects/marktaormino/maximum-mayhem-dungeons-7-dread-swamp-of-the-banshee> (referer: None)
+INFO: Parse function called on https://www.kickstarter.com/projects/marktaormino/maximum-mayhem-dungeons-7-dread-swamp-of-the-banshee
+INFO: DUPLICATE CREATOR
+DEBUG: Crawled (200) <GET https://www.kickstarter.com/projects/JoeGP/guinea-pig-parkour-a-hand-drawn-2d-platformer-adventure> (referer: None)
+INFO: Parse function called on https://www.kickstarter.com/projects/JoeGP/guinea-pig-parkour-a-hand-drawn-2d-platformer-adventure
+INFO: DUPLICATE CREATOR
+DEBUG: Crawled (200) <GET https://www.kickstarter.com/projects/iws/night-parade-fusion-playing-cards-hanafuda-poker> (referer: None)
+INFO: Parse function called on https://www.kickstarter.com/projects/iws/night-parade-fusion-playing-cards-hanafuda-poker
+INFO: DUPLICATE CREATOR
+DEBUG: Crawled (200) <GET https://www.kickstarter.com/projects/omm/hey-cutie-the-tabletop-dating-sim> (referer: None)
+INFO: Parse function called on https://www.kickstarter.com/projects/omm/hey-cutie-the-tabletop-dating-sim
+INFO: DUPLICATE CREATOR
+INFO: Crawled 31 pages (at 31 pages/min), scraped 0 items (at 0 items/min)
+DEBUG: Crawled (200) <GET https://www.kickstarter.com/projects/studio9games/global-crisis-the-game-of-future-earth> (referer: None)
+INFO: Parse function called on https://www.kickstarter.com/projects/studio9games/global-crisis-the-game-of-future-earth
+INFO: DUPLICATE CREATOR
+DEBUG: Crawled (200) <GET https://www.kickstarter.com/projects/playingcards1/bicycle-limited-edition-city-skylines-los-angeles> (referer: None)
+INFO: Parse function called on https://www.kickstarter.com/projects/playingcards1/bicycle-limited-edition-city-skylines-los-angeles
+INFO: DUPLICATE CREATOR
+DEBUG: Crawled (200) <GET https://www.kickstarter.com/projects/infiniumgamestudio/monsters-of-aquilae-200-brand-new-creatures-for-5e-p1e-p2e> (referer: None)
+INFO: Parse function called on https://www.kickstarter.com/projects/infiniumgamestudio/monsters-of-aquilae-200-brand-new-creatures-for-5e-p1e-p2e
+INFO: DUPLICATE CREATOR
+DEBUG: Crawled (200) <GET https://www.kickstarter.com/projects/smacktalkshowdown/smack-talk-showdown-lewd-additude-and-2nd-edition> (referer: None)
+INFO: Parse function called on https://www.kickstarter.com/projects/smacktalkshowdown/smack-talk-showdown-lewd-additude-and-2nd-edition
+INFO: DUPLICATE CREATOR
+DEBUG: Crawled (200) <GET https://www.kickstarter.com/projects/waddlingpanda/party-tails> (referer: None)
+INFO: Parse function called on https://www.kickstarter.com/projects/waddlingpanda/party-tails
+INFO: DUPLICATE CREATOR
+DEBUG: Crawled (200) <GET https://www.kickstarter.com/projects/zeronine/gridlock-boston> (referer: None)
+INFO: Parse function called on https://www.kickstarter.com/projects/zeronine/gridlock-boston
+INFO: DUPLICATE CREATOR
+DEBUG: Crawled (200) <GET https://www.kickstarter.com/projects/2116395655/minds-eye-0> (referer: None)
+INFO: Parse function called on https://www.kickstarter.com/projects/2116395655/minds-eye-0
+INFO: DUPLICATE CREATOR
+DEBUG: Crawled (200) <GET https://www.kickstarter.com/projects/1475398019/spray-paint-masters> (referer: None)
+INFO: Parse function called on https://www.kickstarter.com/projects/1475398019/spray-paint-masters
+INFO: DUPLICATE CREATOR
+DEBUG: Crawled (200) <GET https://www.kickstarter.com/projects/revryebread/if-not-us-then-who-a-card-based-ttrpg-recognizekrsu> (referer: None)
+INFO: Parse function called on https://www.kickstarter.com/projects/revryebread/if-not-us-then-who-a-card-based-ttrpg-recognizekrsu
+INFO: DUPLICATE CREATOR
+DEBUG: Crawled (200) <GET https://www.kickstarter.com/projects/portaldeck/portal-playing-card> (referer: None)
+INFO: Parse function called on https://www.kickstarter.com/projects/portaldeck/portal-playing-card
+INFO: DUPLICATE CREATOR
+DEBUG: Crawled (200) <GET https://www.kickstarter.com/projects/kingskeys/kings-keys-playing-cards> (referer: None)
+INFO: Parse function called on https://www.kickstarter.com/projects/kingskeys/kings-keys-playing-cards
+INFO: DUPLICATE CREATOR
+DEBUG: Crawled (200) <GET https://www.kickstarter.com/projects/draughtnauts/draughtnauts-the-collectible-board-game> (referer: None)
+INFO: Parse function called on https://www.kickstarter.com/projects/draughtnauts/draughtnauts-the-collectible-board-game
+INFO: DUPLICATE CREATOR
+DEBUG: Crawled (200) <GET https://www.kickstarter.com/projects/ireallylikeironman/devertion-the-site-made-for-game-developers> (referer: None)
+INFO: Parse function called on https://www.kickstarter.com/projects/ireallylikeironman/devertion-the-site-made-for-game-developers
+INFO: DUPLICATE CREATOR
+DEBUG: Crawled (200) <GET https://www.kickstarter.com/projects/unchartedrealms/uncharted-realms-of-the-abyss> (referer: None)
+INFO: Parse function called on https://www.kickstarter.com/projects/unchartedrealms/uncharted-realms-of-the-abyss
+INFO: DUPLICATE CREATOR
+DEBUG: Crawled (200) <GET https://www.kickstarter.com/projects/in2it/in2it-contra-versa-tarot-take-2> (referer: None)
+INFO: Parse function called on https://www.kickstarter.com/projects/in2it/in2it-contra-versa-tarot-take-2
+INFO: DUPLICATE CREATOR
+DEBUG: Crawled (200) <GET https://www.kickstarter.com/projects/plaidpockets/plaid-pockets> (referer: None)
+INFO: Parse function called on https://www.kickstarter.com/projects/plaidpockets/plaid-pockets
+INFO: DUPLICATE CREATOR
+DEBUG: Crawled (200) <GET https://www.kickstarter.com/projects/pepalworks/scissors> (referer: None)
+INFO: Parse function called on https://www.kickstarter.com/projects/pepalworks/scissors
+DEBUG: Crawled (200) <GET https://www.kickstarter.com/projects/justdrink/blacked-out-an-intoxicating-card-game> (referer: None)
+INFO: Parse function called on https://www.kickstarter.com/projects/justdrink/blacked-out-an-intoxicating-card-game
+INFO: DUPLICATE CREATOR
+DEBUG: Crawled (200) <GET https://api.kickstarter.com/v1/users/1846654698?signature=1577510533.a6dc196daedd337bb9244841bea2f5e9873e19f2> (referer: https://www.kickstarter.com/projects/pepalworks/scissors)
+DEBUG: Crawled (200) <GET https://www.kickstarter.com/projects/zencala/therapy-cubes-an-interactive-story-telling-dice-game> (referer: None)
+INFO: Parse function called on https://www.kickstarter.com/projects/zencala/therapy-cubes-an-interactive-story-telling-dice-game
+INFO: DUPLICATE CREATOR
+DEBUG: Crawled (200) <GET https://www.kickstarter.com/projects/1169234209/sin-bin-a-social-rugby-game> (referer: None)
+INFO: Parse function called on https://www.kickstarter.com/projects/1169234209/sin-bin-a-social-rugby-game
+INFO: DUPLICATE CREATOR
+DEBUG: Crawled (200) <GET https://www.kickstarter.com/projects/gwaangood/representation-through-gaming> (referer: None)
+INFO: Parse function called on https://www.kickstarter.com/projects/gwaangood/representation-through-gaming
+INFO: DUPLICATE CREATOR
+DEBUG: Crawled (200) <GET https://www.kickstarter.com/projects/102137316/a-dozen-troubling-rumors-for-use-with-fantasy-rpgs> (referer: None)
+INFO: Parse function called on https://www.kickstarter.com/projects/102137316/a-dozen-troubling-rumors-for-use-with-fantasy-rpgs
+INFO: DUPLICATE CREATOR
+DEBUG: Crawled (200) <GET https://www.kickstarter.com/projects/offcut/complicated-board-game-the-card-game-time-2-play> (referer: None)
+INFO: Parse function called on https://www.kickstarter.com/projects/offcut/complicated-board-game-the-card-game-time-2-play
+INFO: DUPLICATE CREATOR
+DEBUG: Crawled (200) <GET https://www.kickstarter.com/projects/timoholt/demolishing-strongholds-the-deck-building-card-game> (referer: None)
+INFO: Parse function called on https://www.kickstarter.com/projects/timoholt/demolishing-strongholds-the-deck-building-card-game
+INFO: DUPLICATE CREATOR
+DEBUG: Crawled (200) <GET https://www.kickstarter.com/projects/miguelthedesigner/mint-condition-comics-a-neat-game-about-comic-books> (referer: None)
+INFO: Parse function called on https://www.kickstarter.com/projects/miguelthedesigner/mint-condition-comics-a-neat-game-about-comic-books
+INFO: DUPLICATE CREATOR
+DEBUG: Crawled (200) <GET https://www.kickstarter.com/projects/discoveryourvalues/the-values-deck-animal-kingdom-edition> (referer: None)
+INFO: Parse function called on https://www.kickstarter.com/projects/discoveryourvalues/the-values-deck-animal-kingdom-edition
+INFO: DUPLICATE CREATOR
+DEBUG: Crawled (200) <GET https://www.kickstarter.com/projects/ndpaoletta/one-more-thing-a-two-player-narrative-tabletop-game> (referer: None)
+INFO: Parse function called on https://www.kickstarter.com/projects/ndpaoletta/one-more-thing-a-two-player-narrative-tabletop-game
+INFO: DUPLICATE CREATOR
+DEBUG: Crawled (200) <GET https://www.kickstarter.com/projects/redwizardgames/catharsis-1-4-player-dark-fantasy-board-game> (referer: None)
+INFO: Parse function called on https://www.kickstarter.com/projects/redwizardgames/catharsis-1-4-player-dark-fantasy-board-game
+INFO: DUPLICATE CREATOR
+DEBUG: Crawled (200) <GET https://www.kickstarter.com/projects/1438234520/breakout-a-pnp-board-game-of-reaching-to-the-other-side> (referer: None)
+INFO: Parse function called on https://www.kickstarter.com/projects/1438234520/breakout-a-pnp-board-game-of-reaching-to-the-other-side
+INFO: DUPLICATE CREATOR
+DEBUG: Crawled (200) <GET https://www.kickstarter.com/projects/jgchapman3/great-games-library> (referer: None)
+INFO: Parse function called on https://www.kickstarter.com/projects/jgchapman3/great-games-library
+INFO: DUPLICATE CREATOR
+DEBUG: Crawled (200) <GET https://www.kickstarter.com/projects/douglairiantherapy/douglairian-therapy> (referer: None)
+INFO: Parse function called on https://www.kickstarter.com/projects/douglairiantherapy/douglairian-therapy
+INFO: DUPLICATE CREATOR
+DEBUG: Crawled (200) <GET https://www.kickstarter.com/projects/484133869/vega-city-hab-blocks> (referer: None)
+INFO: Parse function called on https://www.kickstarter.com/projects/484133869/vega-city-hab-blocks
+INFO: DUPLICATE CREATOR
+INFO: Crawled 64 pages (at 33 pages/min), scraped 0 items (at 0 items/min)
+DEBUG: Crawled (200) <GET https://www.kickstarter.com/projects/q-creates/insert-game-title-here> (referer: None)
+INFO: Parse function called on https://www.kickstarter.com/projects/q-creates/insert-game-title-here
+INFO: DUPLICATE CREATOR
+DEBUG: Crawled (200) <GET https://www.kickstarter.com/projects/edenryse/flicker-a-live-action-choose-your-own-adventure-movie> (referer: None)
+INFO: Parse function called on https://www.kickstarter.com/projects/edenryse/flicker-a-live-action-choose-your-own-adventure-movie
+INFO: DUPLICATE CREATOR
+DEBUG: Crawled (200) <GET https://www.kickstarter.com/projects/872094147/family-plot-2> (referer: None)
+INFO: Parse function called on https://www.kickstarter.com/projects/872094147/family-plot-2
+INFO: DUPLICATE CREATOR
+DEBUG: Crawled (200) <GET https://www.kickstarter.com/projects/peterchayward/goblin-teeth> (referer: None)
+INFO: Parse function called on https://www.kickstarter.com/projects/peterchayward/goblin-teeth
+INFO: DUPLICATE CREATOR
+DEBUG: Crawled (200) <GET https://www.kickstarter.com/projects/1296268806/loot-of-lima> (referer: None)
+INFO: Parse function called on https://www.kickstarter.com/projects/1296268806/loot-of-lima
+INFO: DUPLICATE CREATOR
+DEBUG: Crawled (200) <GET https://www.kickstarter.com/projects/brick-towers/brick-dice-towers> (referer: None)
+INFO: Parse function called on https://www.kickstarter.com/projects/brick-towers/brick-dice-towers
+INFO: DUPLICATE CREATOR
+DEBUG: Crawled (200) <GET https://www.kickstarter.com/projects/vergegames/a-christmas-carol-adventure> (referer: None)
+INFO: Parse function called on https://www.kickstarter.com/projects/vergegames/a-christmas-carol-adventure
+INFO: DUPLICATE CREATOR
+DEBUG: Crawled (200) <GET https://www.kickstarter.com/projects/1610277086/the-wishing-sigil> (referer: None)
+INFO: Parse function called on https://www.kickstarter.com/projects/1610277086/the-wishing-sigil
+INFO: DUPLICATE CREATOR
+DEBUG: Crawled (200) <GET https://www.kickstarter.com/projects/randybutterfield/euchre-playing-cards-v3-and-indiana-decks> (referer: None)
+INFO: Parse function called on https://www.kickstarter.com/projects/randybutterfield/euchre-playing-cards-v3-and-indiana-decks
+INFO: DUPLICATE CREATOR
+DEBUG: Crawled (200) <GET https://www.kickstarter.com/projects/674290270/vigor-into-dust> (referer: None)
+INFO: Parse function called on https://www.kickstarter.com/projects/674290270/vigor-into-dust
+INFO: DUPLICATE CREATOR
+DEBUG: Crawled (200) <GET https://www.kickstarter.com/projects/d-verse/nexus-redemption> (referer: None)
+INFO: Parse function called on https://www.kickstarter.com/projects/d-verse/nexus-redemption
+INFO: DUPLICATE CREATOR
+DEBUG: Crawled (200) <GET https://www.kickstarter.com/projects/218255739/thorn-city-of-kings> (referer: None)
+INFO: Parse function called on https://www.kickstarter.com/projects/218255739/thorn-city-of-kings
+INFO: DUPLICATE CREATOR
+DEBUG: Crawled (200) <GET https://www.kickstarter.com/projects/emilysleights52/11th-hour-playing-cards-by-emilysleights52-and-billdavismagic> (referer: None)
+INFO: Parse function called on https://www.kickstarter.com/projects/emilysleights52/11th-hour-playing-cards-by-emilysleights52-and-billdavismagic
+INFO: DUPLICATE CREATOR
+DEBUG: Crawled (200) <GET https://www.kickstarter.com/projects/miketiv/rad-chess> (referer: None)
+INFO: Parse function called on https://www.kickstarter.com/projects/miketiv/rad-chess
+INFO: DUPLICATE CREATOR
+DEBUG: Crawled (200) <GET https://www.kickstarter.com/projects/daretoplay/dare-to-play> (referer: None)
+INFO: Parse function called on https://www.kickstarter.com/projects/daretoplay/dare-to-play
+INFO: DUPLICATE CREATOR
+DEBUG: Crawled (200) <GET https://www.kickstarter.com/projects/reddogminis/armory-upgrades> (referer: None)
+INFO: Parse function called on https://www.kickstarter.com/projects/reddogminis/armory-upgrades
+INFO: DUPLICATE CREATOR
+DEBUG: Crawled (200) <GET https://www.kickstarter.com/projects/statuseffectgamesllc/hit-city-hustle-0> (referer: None)
+INFO: Parse function called on https://www.kickstarter.com/projects/statuseffectgamesllc/hit-city-hustle-0
+INFO: DUPLICATE CREATOR
+DEBUG: Crawled (200) <GET https://www.kickstarter.com/projects/whirtel/queen-and-kings-a-checkers-game> (referer: None)
+INFO: Parse function called on https://www.kickstarter.com/projects/whirtel/queen-and-kings-a-checkers-game
+INFO: DUPLICATE CREATOR
+DEBUG: Crawled (200) <GET https://www.kickstarter.com/profile/pepalworks/created> (referer: https://api.kickstarter.com/v1/users/1846654698?signature=1577510533.a6dc196daedd337bb9244841bea2f5e9873e19f2)
+INFO: Parse creator called on https://www.kickstarter.com/profile/pepalworks/created
+ERROR: Spider error processing <GET https://www.kickstarter.com/profile/pepalworks/created> (referer: https://api.kickstarter.com/v1/users/1846654698?signature=1577510533.a6dc196daedd337bb9244841bea2f5e9873e19f2)
+Traceback (most recent call last):
+  File "/home/manlin/.local/lib/python3.6/site-packages/twisted/internet/defer.py", line 654, in _runCallbacks
+    current.result = callback(current.result, *args, **kw)
+  File "/home/manlin/PycharmProjects/Kickstarter_Creator/Kickstarter_Creator/spiders/kickstarter_creator.py", line 97, in parse_creator_link
+    projects= json.loads(projectsStr[0])
+IndexError: list index out of range
+DEBUG: Crawled (200) <GET https://www.kickstarter.com/projects/781197855/spook-or-smash-make-every-season-spooky-season> (referer: None)
+INFO: Parse function called on https://www.kickstarter.com/projects/781197855/spook-or-smash-make-every-season-spooky-season
+INFO: DUPLICATE CREATOR
+DEBUG: Crawled (200) <GET https://www.kickstarter.com/projects/ralphgame/ralphgame> (referer: None)
+INFO: Parse function called on https://www.kickstarter.com/projects/ralphgame/ralphgame
+INFO: DUPLICATE CREATOR
+DEBUG: Crawled (200) <GET https://www.kickstarter.com/projects/chasetaylor/paper-way> (referer: None)
+INFO: Parse function called on https://www.kickstarter.com/projects/chasetaylor/paper-way
+INFO: DUPLICATE CREATOR
+DEBUG: Crawled (200) <GET https://www.kickstarter.com/projects/jinhuo/inside-trader> (referer: None)
+INFO: Parse function called on https://www.kickstarter.com/projects/jinhuo/inside-trader
+INFO: DUPLICATE CREATOR
+DEBUG: Crawled (200) <GET https://www.kickstarter.com/projects/unchild/tinieblas-jrs-adventures-for-pc-and-xbox-one> (referer: None)
+INFO: Parse function called on https://www.kickstarter.com/projects/unchild/tinieblas-jrs-adventures-for-pc-and-xbox-one
+INFO: DUPLICATE CREATOR
+DEBUG: Crawled (200) <GET https://www.kickstarter.com/projects/clashofspears/clash-of-spears> (referer: None)
+INFO: Parse function called on https://www.kickstarter.com/projects/clashofspears/clash-of-spears
+INFO: DUPLICATE CREATOR
+DEBUG: Crawled (200) <GET https://www.kickstarter.com/projects/montecookgames/invisible-sun-slipcase> (referer: None)
+INFO: Parse function called on https://www.kickstarter.com/projects/montecookgames/invisible-sun-slipcase
+INFO: DUPLICATE CREATOR
+DEBUG: Crawled (200) <GET https://www.kickstarter.com/projects/basketofadorables/tantrump-the-kickstarter-impeachment-edition> (referer: None)
+INFO: Parse function called on https://www.kickstarter.com/projects/basketofadorables/tantrump-the-kickstarter-impeachment-edition
+INFO: DUPLICATE CREATOR
+DEBUG: Crawled (200) <GET https://www.kickstarter.com/projects/ri2/a-fantasy-town-a-system-neutral-setting-for-fantasy-games> (referer: None)
+INFO: Parse function called on https://www.kickstarter.com/projects/ri2/a-fantasy-town-a-system-neutral-setting-for-fantasy-games
+INFO: DUPLICATE CREATOR
+DEBUG: Crawled (200) <GET https://www.kickstarter.com/projects/596091992/out-of-context-a-dangerously-fun-party-game> (referer: None)
+INFO: Parse function called on https://www.kickstarter.com/projects/596091992/out-of-context-a-dangerously-fun-party-game
+INFO: DUPLICATE CREATOR
+DEBUG: Crawled (200) <GET https://www.kickstarter.com/projects/angelmccoy/dire-multiverse-poker-decks-plus> (referer: None)
+INFO: Parse function called on https://www.kickstarter.com/projects/angelmccoy/dire-multiverse-poker-decks-plus
+INFO: DUPLICATE CREATOR
+DEBUG: Crawled (200) <GET https://www.kickstarter.com/projects/lfgnexus/lfg-nexus> (referer: None)
+INFO: Parse function called on https://www.kickstarter.com/projects/lfgnexus/lfg-nexus
+INFO: DUPLICATE CREATOR
+DEBUG: Crawled (200) <GET https://www.kickstarter.com/projects/jackwagon/slapmonkey-0> (referer: None)
+INFO: Parse function called on https://www.kickstarter.com/projects/jackwagon/slapmonkey-0
+INFO: DUPLICATE CREATOR
+DEBUG: Crawled (200) <GET https://www.kickstarter.com/projects/alextrichon/bridgehouse-playing-cards> (referer: None)
+INFO: Parse function called on https://www.kickstarter.com/projects/alextrichon/bridgehouse-playing-cards
+INFO: DUPLICATE CREATOR
+INFO: Crawled 97 pages (at 33 pages/min), scraped 0 items (at 0 items/min)
+DEBUG: Crawled (200) <GET https://www.kickstarter.com/projects/project-accen/project-acenn> (referer: None)
+INFO: Parse function called on https://www.kickstarter.com/projects/project-accen/project-acenn
+INFO: DUPLICATE CREATOR
+DEBUG: Crawled (200) <GET https://www.kickstarter.com/projects/epb/e-pitchball-fund-raiser-funds-for-prototypeand-more> (referer: None)
+INFO: Parse function called on https://www.kickstarter.com/projects/epb/e-pitchball-fund-raiser-funds-for-prototypeand-more
+INFO: DUPLICATE CREATOR
+DEBUG: Crawled (200) <GET https://www.kickstarter.com/projects/danverssengames/thunderbolt-apache-leader-fleet-cmdr-nimitz-tiger-leader> (referer: None)
+INFO: Parse function called on https://www.kickstarter.com/projects/danverssengames/thunderbolt-apache-leader-fleet-cmdr-nimitz-tiger-leader
+INFO: DUPLICATE CREATOR
+DEBUG: Crawled (200) <GET https://www.kickstarter.com/projects/everythingepicgames/vampire-the-masquerade-blood-feud-a-mega-board-game> (referer: None)
+INFO: Parse function called on https://www.kickstarter.com/projects/everythingepicgames/vampire-the-masquerade-blood-feud-a-mega-board-game
+INFO: DUPLICATE CREATOR
+DEBUG: Crawled (200) <GET https://www.kickstarter.com/projects/fireflies/how-to-read-minds-kit-ellusionist-x-peter-turner> (referer: None)
+INFO: Parse function called on https://www.kickstarter.com/projects/fireflies/how-to-read-minds-kit-ellusionist-x-peter-turner
+INFO: DUPLICATE CREATOR
+DEBUG: Crawled (200) <GET https://www.kickstarter.com/projects/781219801/station-master> (referer: None)
+INFO: Parse function called on https://www.kickstarter.com/projects/781219801/station-master
+INFO: DUPLICATE CREATOR
+DEBUG: Crawled (200) <GET https://www.kickstarter.com/projects/casting/ancient-zodiac-seals-taken-from-a-16th-century-grimoire> (referer: None)
+INFO: Parse function called on https://www.kickstarter.com/projects/casting/ancient-zodiac-seals-taken-from-a-16th-century-grimoire
+INFO: DUPLICATE CREATOR
+DEBUG: Crawled (200) <GET https://www.kickstarter.com/projects/compassgames/napoleons-eagles> (referer: None)
+INFO: Parse function called on https://www.kickstarter.com/projects/compassgames/napoleons-eagles
+INFO: DUPLICATE CREATOR
+DEBUG: Crawled (200) <GET https://www.kickstarter.com/projects/1028251/super-quick-print-sci-fi-gothic-3d-printable-terrain> (referer: None)
+INFO: Parse function called on https://www.kickstarter.com/projects/1028251/super-quick-print-sci-fi-gothic-3d-printable-terrain
+INFO: DUPLICATE CREATOR
+DEBUG: Crawled (200) <GET https://www.kickstarter.com/projects/mikamiga/girls-lovecast> (referer: None)
+INFO: Parse function called on https://www.kickstarter.com/projects/mikamiga/girls-lovecast
+INFO: DUPLICATE CREATOR
+DEBUG: Crawled (200) <GET https://www.kickstarter.com/projects/sleeplessinc/swordstm-user-interface-improvements> (referer: None)
+INFO: Parse function called on https://www.kickstarter.com/projects/sleeplessinc/swordstm-user-interface-improvements
+INFO: DUPLICATE CREATOR
+DEBUG: Crawled (200) <GET https://www.kickstarter.com/projects/emoji-casting/emoji-casting> (referer: None)
+INFO: Parse function called on https://www.kickstarter.com/projects/emoji-casting/emoji-casting
+INFO: DUPLICATE CREATOR
+DEBUG: Crawled (200) <GET https://www.kickstarter.com/projects/archangel3d/forsaken-lands-3d-printable-fantasy-tabletop-terrain> (referer: None)
+INFO: Parse function called on https://www.kickstarter.com/projects/archangel3d/forsaken-lands-3d-printable-fantasy-tabletop-terrain
+INFO: DUPLICATE CREATOR
+DEBUG: Crawled (200) <GET https://www.kickstarter.com/projects/wordsmythe/better-backstories-for-rpgs> (referer: None)
+INFO: Parse function called on https://www.kickstarter.com/projects/wordsmythe/better-backstories-for-rpgs
+INFO: DUPLICATE CREATOR
+DEBUG: Crawled (200) <GET https://www.kickstarter.com/projects/485545784/loud-ninja-games-the-ikwen-uprising-redux> (referer: None)
+INFO: Parse function called on https://www.kickstarter.com/projects/485545784/loud-ninja-games-the-ikwen-uprising-redux
+INFO: DUPLICATE CREATOR
+DEBUG: Crawled (200) <GET https://www.kickstarter.com/projects/dphgames/psychological-warfare-4th-ed> (referer: None)
+INFO: Parse function called on https://www.kickstarter.com/projects/dphgames/psychological-warfare-4th-ed
+INFO: DUPLICATE CREATOR
+DEBUG: Crawled (200) <GET https://www.kickstarter.com/projects/rabbiteer/master-the-elements> (referer: None)
+INFO: Parse function called on https://www.kickstarter.com/projects/rabbiteer/master-the-elements
+INFO: DUPLICATE CREATOR
+DEBUG: Crawled (200) <GET https://www.kickstarter.com/projects/ldstudios/the-red-cloaks> (referer: None)
+INFO: Parse function called on https://www.kickstarter.com/projects/ldstudios/the-red-cloaks
+INFO: DUPLICATE CREATOR
+DEBUG: Crawled (200) <GET https://www.kickstarter.com/projects/telkenlost/telken-lost> (referer: None)
+INFO: Parse function called on https://www.kickstarter.com/projects/telkenlost/telken-lost
+INFO: DUPLICATE CREATOR
+DEBUG: Crawled (200) <GET https://www.kickstarter.com/projects/beedo/this-game-is-nuts> (referer: None)
+INFO: Parse function called on https://www.kickstarter.com/projects/beedo/this-game-is-nuts
+INFO: DUPLICATE CREATOR
+DEBUG: Crawled (200) <GET https://www.kickstarter.com/projects/flickwish-studios/fenway-park-welcomes-the-2020-flickwish-championship> (referer: None)
+INFO: Parse function called on https://www.kickstarter.com/projects/flickwish-studios/fenway-park-welcomes-the-2020-flickwish-championship
+INFO: DUPLICATE CREATOR
+DEBUG: Crawled (200) <GET https://www.kickstarter.com/projects/dannymachado/docetm-classic-gaming-on-a-whole-new-leveltm> (referer: None)
+INFO: Parse function called on https://www.kickstarter.com/projects/dannymachado/docetm-classic-gaming-on-a-whole-new-leveltm
+INFO: DUPLICATE CREATOR
+DEBUG: Crawled (200) <GET https://www.kickstarter.com/projects/meeplecraft/the-tome-tote> (referer: None)
+INFO: Parse function called on https://www.kickstarter.com/projects/meeplecraft/the-tome-tote
+INFO: DUPLICATE CREATOR
+DEBUG: Crawled (200) <GET https://www.kickstarter.com/projects/encegaming/emperors-and-kings> (referer: None)
+INFO: Parse function called on https://www.kickstarter.com/projects/encegaming/emperors-and-kings
+INFO: DUPLICATE CREATOR
+DEBUG: Crawled (200) <GET https://www.kickstarter.com/projects/zencala/dungeons-and-dragons-random-monster-dice-and-cards> (referer: None)
+INFO: Parse function called on https://www.kickstarter.com/projects/zencala/dungeons-and-dragons-random-monster-dice-and-cards
+INFO: DUPLICATE CREATOR
+DEBUG: Crawled (200) <GET https://www.kickstarter.com/projects/strongholdpressgames/silver-swords-a-role-playing-zine-issue-2> (referer: None)
+INFO: Parse function called on https://www.kickstarter.com/projects/strongholdpressgames/silver-swords-a-role-playing-zine-issue-2
+INFO: DUPLICATE CREATOR
+DEBUG: Crawled (200) <GET https://www.kickstarter.com/projects/spacemyname/stellaxy> (referer: None)
+INFO: Parse function called on https://www.kickstarter.com/projects/spacemyname/stellaxy
+INFO: DUPLICATE CREATOR
+DEBUG: Crawled (200) <GET https://www.kickstarter.com/projects/strain-wars/strain-wars-air-fresheners> (referer: None)
+INFO: Parse function called on https://www.kickstarter.com/projects/strain-wars/strain-wars-air-fresheners
+INFO: DUPLICATE CREATOR
+DEBUG: Crawled (200) <GET https://www.kickstarter.com/projects/blueflamegames/apidaia-the-game-about-bees> (referer: None)
+INFO: Parse function called on https://www.kickstarter.com/projects/blueflamegames/apidaia-the-game-about-bees
+INFO: DUPLICATE CREATOR
+DEBUG: Crawled (200) <GET https://www.kickstarter.com/projects/bitesizedgaming/captain-hartchilds-guide-to-oceanic-depths> (referer: None)
+INFO: Parse function called on https://www.kickstarter.com/projects/bitesizedgaming/captain-hartchilds-guide-to-oceanic-depths
+INFO: DUPLICATE CREATOR
+DEBUG: Crawled (200) <GET https://www.kickstarter.com/projects/newburyrain/movie-battle> (referer: None)
+INFO: Parse function called on https://www.kickstarter.com/projects/newburyrain/movie-battle
+INFO: DUPLICATE CREATOR
+DEBUG: Crawled (200) <GET https://www.kickstarter.com/projects/283274780/amethyst-geode-playing-cards-relaunch> (referer: None)
+INFO: Parse function called on https://www.kickstarter.com/projects/283274780/amethyst-geode-playing-cards-relaunch
+INFO: DUPLICATE CREATOR
+DEBUG: Crawled (200) <GET https://www.kickstarter.com/projects/497057119/rpex-full-scale-dungeon-high-tier-loot> (referer: None)
+INFO: Parse function called on https://www.kickstarter.com/projects/497057119/rpex-full-scale-dungeon-high-tier-loot
+INFO: DUPLICATE CREATOR
+DEBUG: Crawled (200) <GET https://www.kickstarter.com/projects/flyingcarpetgames/orchards-a-competitive-fruit-farming-game-for-2-4-players> (referer: None)
+INFO: Parse function called on https://www.kickstarter.com/projects/flyingcarpetgames/orchards-a-competitive-fruit-farming-game-for-2-4-players
+INFO: DUPLICATE CREATOR
+INFO: Crawled 131 pages (at 34 pages/min), scraped 0 items (at 0 items/min)
+DEBUG: Crawled (200) <GET https://www.kickstarter.com/projects/herotrainer/hero-trainer-in-game-rewards-for-exercising> (referer: None)
+INFO: Parse function called on https://www.kickstarter.com/projects/herotrainer/hero-trainer-in-game-rewards-for-exercising
+INFO: DUPLICATE CREATOR
+DEBUG: Crawled (200) <GET https://www.kickstarter.com/projects/realmsofepoch/realms-of-epoch> (referer: None)
+INFO: Parse function called on https://www.kickstarter.com/projects/realmsofepoch/realms-of-epoch
+INFO: DUPLICATE CREATOR
+DEBUG: Crawled (200) <GET https://www.kickstarter.com/projects/chrisbanciu/makeme-happy-lovely-game-cute-art> (referer: None)
+INFO: Parse function called on https://www.kickstarter.com/projects/chrisbanciu/makeme-happy-lovely-game-cute-art
+INFO: DUPLICATE CREATOR
+DEBUG: Crawled (200) <GET https://www.kickstarter.com/projects/holthamilton/native-american-puzzles> (referer: None)
+INFO: Parse function called on https://www.kickstarter.com/projects/holthamilton/native-american-puzzles
+INFO: DUPLICATE CREATOR
+DEBUG: Crawled (200) <GET https://www.kickstarter.com/projects/gamewithme/gamewithme> (referer: None)
+INFO: Parse function called on https://www.kickstarter.com/projects/gamewithme/gamewithme
+INFO: DUPLICATE CREATOR
+DEBUG: Crawled (200) <GET https://www.kickstarter.com/projects/diemensiongames/dawn-of-madness> (referer: None)
+INFO: Parse function called on https://www.kickstarter.com/projects/diemensiongames/dawn-of-madness
+INFO: DUPLICATE CREATOR
+DEBUG: Crawled (200) <GET https://www.kickstarter.com/projects/zonedout/zoned-out> (referer: None)
+INFO: Parse function called on https://www.kickstarter.com/projects/zonedout/zoned-out
+INFO: DUPLICATE CREATOR
+DEBUG: Crawled (200) <GET https://www.kickstarter.com/projects/craftygames/mistborn-metal-dice> (referer: None)
+INFO: Parse function called on https://www.kickstarter.com/projects/craftygames/mistborn-metal-dice
+INFO: DUPLICATE CREATOR
+DEBUG: Crawled (200) <GET https://www.kickstarter.com/projects/mikegnade/alderquest> (referer: None)
+INFO: Parse function called on https://www.kickstarter.com/projects/mikegnade/alderquest
+INFO: DUPLICATE CREATOR
+DEBUG: Crawled (200) <GET https://www.kickstarter.com/projects/239309591/button-shy-wallet-games-reprint-campaign> (referer: None)
+INFO: Parse function called on https://www.kickstarter.com/projects/239309591/button-shy-wallet-games-reprint-campaign
+INFO: DUPLICATE CREATOR
+DEBUG: Crawled (200) <GET https://www.kickstarter.com/projects/gerdling/gradient-descent-module-for-mothership-sci-fi-horror-rpg> (referer: None)
+INFO: Parse function called on https://www.kickstarter.com/projects/gerdling/gradient-descent-module-for-mothership-sci-fi-horror-rpg
+INFO: DUPLICATE CREATOR
+DEBUG: Crawled (200) <GET https://www.kickstarter.com/projects/99575233/slip-strike> (referer: None)
+INFO: Parse function called on https://www.kickstarter.com/projects/99575233/slip-strike
+INFO: DUPLICATE CREATOR
+DEBUG: Crawled (200) <GET https://www.kickstarter.com/projects/zipperondisney/galders-gazetteer-a-5e-expansion> (referer: None)
+INFO: Parse function called on https://www.kickstarter.com/projects/zipperondisney/galders-gazetteer-a-5e-expansion
+INFO: DUPLICATE CREATOR
+DEBUG: Crawled (200) <GET https://www.kickstarter.com/projects/justinsirois/fuck-yeah-d6s-six-sided-dice> (referer: None)
+INFO: Parse function called on https://www.kickstarter.com/projects/justinsirois/fuck-yeah-d6s-six-sided-dice
+INFO: DUPLICATE CREATOR
+DEBUG: Crawled (200) <GET https://www.kickstarter.com/projects/1327314385/chroniclers-of-barbaric-splendor> (referer: None)
+INFO: Parse function called on https://www.kickstarter.com/projects/1327314385/chroniclers-of-barbaric-splendor
+INFO: DUPLICATE CREATOR
+DEBUG: Crawled (200) <GET https://www.kickstarter.com/projects/1795975411/work-it-with-the-wingadoos> (referer: None)
+INFO: Parse function called on https://www.kickstarter.com/projects/1795975411/work-it-with-the-wingadoos
+INFO: DUPLICATE CREATOR
+DEBUG: Crawled (200) <GET https://www.kickstarter.com/projects/gtscientific/dice-made-from-engineering-alloys-titanium-and-ss-added> (referer: None)
+INFO: Parse function called on https://www.kickstarter.com/projects/gtscientific/dice-made-from-engineering-alloys-titanium-and-ss-added
+INFO: DUPLICATE CREATOR
+DEBUG: Crawled (200) <GET https://www.kickstarter.com/projects/therankgame/the-rank-game> (referer: None)
+INFO: Parse function called on https://www.kickstarter.com/projects/therankgame/the-rank-game
+INFO: DUPLICATE CREATOR
+DEBUG: Crawled (200) <GET https://www.kickstarter.com/projects/puttsup/putts-up-a-ramped-up-version-of-mini-golf> (referer: None)
+INFO: Parse function called on https://www.kickstarter.com/projects/puttsup/putts-up-a-ramped-up-version-of-mini-golf
+INFO: DUPLICATE CREATOR
+DEBUG: Crawled (200) <GET https://www.kickstarter.com/projects/wca6405/any-given-sunday> (referer: None)
+INFO: Parse function called on https://www.kickstarter.com/projects/wca6405/any-given-sunday
+INFO: DUPLICATE CREATOR
+DEBUG: Crawled (200) <GET https://www.kickstarter.com/projects/wohrf/we-only-have-room-for> (referer: None)
+INFO: Parse function called on https://www.kickstarter.com/projects/wohrf/we-only-have-room-for
+INFO: DUPLICATE CREATOR
+DEBUG: Crawled (200) <GET https://www.kickstarter.com/projects/embermation/spare-parts> (referer: None)
+INFO: Parse function called on https://www.kickstarter.com/projects/embermation/spare-parts
+INFO: DUPLICATE CREATOR
+DEBUG: Crawled (200) <GET https://www.kickstarter.com/projects/698520615/bowdown> (referer: None)
+INFO: Parse function called on https://www.kickstarter.com/projects/698520615/bowdown
+INFO: DUPLICATE CREATOR
+DEBUG: Crawled (200) <GET https://www.kickstarter.com/projects/mountolympuscomics/ron-zs-patriotika-pin-up-playing-cards> (referer: None)
+INFO: Parse function called on https://www.kickstarter.com/projects/mountolympuscomics/ron-zs-patriotika-pin-up-playing-cards
+INFO: DUPLICATE CREATOR
+DEBUG: Crawled (200) <GET https://www.kickstarter.com/projects/jessicafeinberg/dragons-and-rare-creatures-playing-cards> (referer: None)
+INFO: Parse function called on https://www.kickstarter.com/projects/jessicafeinberg/dragons-and-rare-creatures-playing-cards
+INFO: DUPLICATE CREATOR
+DEBUG: Crawled (200) <GET https://www.kickstarter.com/projects/kozz/balk-new-release> (referer: None)
+INFO: Parse function called on https://www.kickstarter.com/projects/kozz/balk-new-release
+INFO: DUPLICATE CREATOR
+DEBUG: Crawled (200) <GET https://www.kickstarter.com/projects/640360422/book-of-beginnings-for-5th-edition> (referer: None)
+INFO: Parse function called on https://www.kickstarter.com/projects/640360422/book-of-beginnings-for-5th-edition
+INFO: DUPLICATE CREATOR
+DEBUG: Crawled (200) <GET https://www.kickstarter.com/projects/dynamiteent/fallout-hidden-vault-exclusive-set> (referer: None)
+INFO: Parse function called on https://www.kickstarter.com/projects/dynamiteent/fallout-hidden-vault-exclusive-set
+INFO: DUPLICATE CREATOR
+DEBUG: Crawled (200) <GET https://www.kickstarter.com/projects/1323948974/worldsxp-gamified-learning-experience-classroom-resource> (referer: None)
+INFO: Parse function called on https://www.kickstarter.com/projects/1323948974/worldsxp-gamified-learning-experience-classroom-resource
+DEBUG: Crawled (200) <GET https://www.kickstarter.com/projects/1376475807/petal-crash-the-baz-dlc> (referer: None)
+INFO: Parse function called on https://www.kickstarter.com/projects/1376475807/petal-crash-the-baz-dlc
+DEBUG: Crawled (200) <GET https://api.kickstarter.com/v1/users/1323948974?signature=1577510737.97595a01bf20efc08f887942b387d536afcde669> (referer: https://www.kickstarter.com/projects/1323948974/worldsxp-gamified-learning-experience-classroom-resource)
+DEBUG: Crawled (200) <GET https://www.kickstarter.com/projects/shaolinchess/shaolin-chess-0> (referer: None)
+INFO: Parse function called on https://www.kickstarter.com/projects/shaolinchess/shaolin-chess-0
+INFO: DUPLICATE CREATOR
+INFO: Crawled 163 pages (at 32 pages/min), scraped 0 items (at 0 items/min)
+DEBUG: Crawled (200) <GET https://api.kickstarter.com/v1/users/1376475807?signature=1577510739.2b8b2b10f361cfd36a34f8a65ddc105c1a258fa3> (referer: https://www.kickstarter.com/projects/1376475807/petal-crash-the-baz-dlc)
+DEBUG: Crawled (200) <GET https://www.kickstarter.com/projects/t3kk3y/secrets-of-starfall-a-5e-adventure-campaign-module> (referer: None)
+INFO: Parse function called on https://www.kickstarter.com/projects/t3kk3y/secrets-of-starfall-a-5e-adventure-campaign-module
+DEBUG: Crawled (200) <GET https://www.kickstarter.com/projects/pot/pot-luck> (referer: None)
+INFO: Parse function called on https://www.kickstarter.com/projects/pot/pot-luck
+DEBUG: Crawled (200) <GET https://api.kickstarter.com/v1/users/282927893?signature=1577510743.2ffec673c16903c7e553e0625a37d31eff98a058> (referer: https://www.kickstarter.com/projects/t3kk3y/secrets-of-starfall-a-5e-adventure-campaign-module)
+DEBUG: Crawled (200) <GET https://www.kickstarter.com/projects/snipee/snipee-cheaper-than-diapers-and-better-for-the-environment> (referer: None)
+INFO: Parse function called on https://www.kickstarter.com/projects/snipee/snipee-cheaper-than-diapers-and-better-for-the-environment
+DEBUG: Crawled (200) <GET https://api.kickstarter.com/v1/users/2131007308?signature=1577510745.48d1874f75c9347c7bfa62976cbf039d86f004ba> (referer: https://www.kickstarter.com/projects/pot/pot-luck)
+DEBUG: Crawled (200) <GET https://www.kickstarter.com/projects/cartoonia/please-help-daisy-find-jb> (referer: None)
+INFO: Parse function called on https://www.kickstarter.com/projects/cartoonia/please-help-daisy-find-jb
+DEBUG: Crawled (200) <GET https://api.kickstarter.com/v1/users/324995297?signature=1577510746.93dd32ec8b8e280565cdff74f545064b0fa1c449> (referer: https://www.kickstarter.com/projects/snipee/snipee-cheaper-than-diapers-and-better-for-the-environment)
+DEBUG: Crawled (200) <GET https://www.kickstarter.com/projects/sidehustlegames/sidehustle-the-party-game-for-entrepreneurs> (referer: None)
+INFO: Parse function called on https://www.kickstarter.com/projects/sidehustlegames/sidehustle-the-party-game-for-entrepreneurs
+DEBUG: Crawled (200) <GET https://api.kickstarter.com/v1/users/679797360?signature=1577510748.6707542c13a866b3ea34f1e929ce8ea7920c02cc> (referer: https://www.kickstarter.com/projects/cartoonia/please-help-daisy-find-jb)
+DEBUG: Crawled (200) <GET https://www.kickstarter.com/projects/oldbean/dump-the-chump-the-mitch-mcconnell-edition> (referer: None)
+INFO: Parse function called on https://www.kickstarter.com/projects/oldbean/dump-the-chump-the-mitch-mcconnell-edition
+DEBUG: Crawled (200) <GET https://api.kickstarter.com/v1/users/1126945534?signature=1577510750.1f1b30ff8db7a9afd42c4b93dd49aa190765fa83> (referer: https://www.kickstarter.com/projects/sidehustlegames/sidehustle-the-party-game-for-entrepreneurs)
+DEBUG: Crawled (200) <GET https://www.kickstarter.com/projects/deepdungeongames/diception-3-the-trials-of-the-gods-dice-games-in-games> (referer: None)
+INFO: Parse function called on https://www.kickstarter.com/projects/deepdungeongames/diception-3-the-trials-of-the-gods-dice-games-in-games
+INFO: DUPLICATE CREATOR
+DEBUG: Crawled (200) <GET https://api.kickstarter.com/v1/users/233699795?signature=1577510752.8e5bb664d69ac78a138b725cb8b31520bd30905a> (referer: https://www.kickstarter.com/projects/oldbean/dump-the-chump-the-mitch-mcconnell-edition)
+DEBUG: Crawled (200) <GET https://www.kickstarter.com/projects/magnategame/magnate-the-first-city> (referer: None)
+INFO: Parse function called on https://www.kickstarter.com/projects/magnategame/magnate-the-first-city
+DEBUG: Crawled (200) <GET https://www.kickstarter.com/projects/necromolds/necromolds-monster-battles> (referer: None)
+INFO: Parse function called on https://www.kickstarter.com/projects/necromolds/necromolds-monster-battles
+DEBUG: Crawled (200) <GET https://api.kickstarter.com/v1/users/1526289022?signature=1577510755.c5724934b87c4033f9bda0393c35a44b06b4d0e8> (referer: https://www.kickstarter.com/projects/magnategame/magnate-the-first-city)
+DEBUG: Crawled (200) <GET https://api.kickstarter.com/v1/users/620665183?signature=1577510757.210fa05983431c994cc1aa2d701ff47bfe6806a7> (referer: https://www.kickstarter.com/projects/necromolds/necromolds-monster-battles)
+DEBUG: Crawled (200) <GET https://www.kickstarter.com/projects/tinkerhousegames/tinkerturf-sci-fi-round-2> (referer: None)
+INFO: Parse function called on https://www.kickstarter.com/projects/tinkerhousegames/tinkerturf-sci-fi-round-2
+DEBUG: Crawled (200) <GET https://www.kickstarter.com/projects/swabbeddecks/clockwork-la-ville-lumiere-playing-cards-animated-uspcc> (referer: None)
+INFO: Parse function called on https://www.kickstarter.com/projects/swabbeddecks/clockwork-la-ville-lumiere-playing-cards-animated-uspcc
+INFO: DUPLICATE CREATOR
+DEBUG: Crawled (200) <GET https://api.kickstarter.com/v1/users/205899120?signature=1577510759.b7ed96a0ef85edb2007e46ed0aeb113523b20ad3> (referer: https://www.kickstarter.com/projects/tinkerhousegames/tinkerturf-sci-fi-round-2)
+DEBUG: Crawled (200) <GET https://www.kickstarter.com/projects/curiositylab/actually-curious-cards-for-not-against-humanity> (referer: None)
+INFO: Parse function called on https://www.kickstarter.com/projects/curiositylab/actually-curious-cards-for-not-against-humanity
+DEBUG: Crawled (200) <GET https://www.kickstarter.com/projects/pixidoku/pixidoku-logic-puzzles-0> (referer: None)
+INFO: Parse function called on https://www.kickstarter.com/projects/pixidoku/pixidoku-logic-puzzles-0
+DEBUG: Crawled (200) <GET https://api.kickstarter.com/v1/users/924805681?signature=1577510762.4187f2427fddb8e9e2bec5e2a0171406148f2d66> (referer: https://www.kickstarter.com/projects/curiositylab/actually-curious-cards-for-not-against-humanity)
+DEBUG: Crawled (200) <GET https://www.kickstarter.com/projects/blazingsword/digital-roman-tokens-for-rpgs> (referer: None)
+INFO: Parse function called on https://www.kickstarter.com/projects/blazingsword/digital-roman-tokens-for-rpgs
+DEBUG: Crawled (200) <GET https://api.kickstarter.com/v1/users/717479437?signature=1577510764.5f98089c20a369617012d1efbb7a0e36783b1d1e> (referer: https://www.kickstarter.com/projects/pixidoku/pixidoku-logic-puzzles-0)
+DEBUG: Crawled (200) <GET https://api.kickstarter.com/v1/users/1522389403?signature=1577510766.babb45dd6862f6560c15b028aa4233e745a581ae> (referer: https://www.kickstarter.com/projects/blazingsword/digital-roman-tokens-for-rpgs)
+DEBUG: Crawled (200) <GET https://www.kickstarter.com/projects/geargutzmekshop/gargantuan-ork-models> (referer: None)
+INFO: Parse function called on https://www.kickstarter.com/projects/geargutzmekshop/gargantuan-ork-models
+DEBUG: Crawled (200) <GET https://www.kickstarter.com/projects/themissioncards/the-mission-cards> (referer: None)
+INFO: Parse function called on https://www.kickstarter.com/projects/themissioncards/the-mission-cards
+DEBUG: Crawled (200) <GET https://api.kickstarter.com/v1/users/700905672?signature=1577510768.334f7a40eeb210f64827b6802805ca2c2da1c794> (referer: https://www.kickstarter.com/projects/geargutzmekshop/gargantuan-ork-models)
+DEBUG: Crawled (200) <GET https://www.kickstarter.com/projects/loteria/la-loteria-edicion-oscura> (referer: None)
+INFO: Parse function called on https://www.kickstarter.com/projects/loteria/la-loteria-edicion-oscura
+DEBUG: Crawled (200) <GET https://api.kickstarter.com/v1/users/568315630?signature=1577510770.2fd1e3b614a291728953519180497202c9a328f2> (referer: https://www.kickstarter.com/projects/themissioncards/the-mission-cards)
+DEBUG: Crawled (200) <GET https://api.kickstarter.com/v1/users/1080475497?signature=1577510772.1a05124838802874699e57b72014694c75750a75> (referer: https://www.kickstarter.com/projects/loteria/la-loteria-edicion-oscura)
+DEBUG: Crawled (200) <GET https://www.kickstarter.com/projects/travelinggypsies/aftermath-5> (referer: None)
+INFO: Parse function called on https://www.kickstarter.com/projects/travelinggypsies/aftermath-5
+DEBUG: Crawled (200) <GET https://www.kickstarter.com/projects/keepsmiling/snowpillow-betas> (referer: None)
+INFO: Parse function called on https://www.kickstarter.com/projects/keepsmiling/snowpillow-betas
+DEBUG: Crawled (200) <GET https://api.kickstarter.com/v1/users/1728106939?signature=1577510774.364c9d0503a813d60fa43fd1205da7b559dec98e> (referer: https://www.kickstarter.com/projects/travelinggypsies/aftermath-5)
+DEBUG: Crawled (200) <GET https://www.kickstarter.com/projects/1540278662/wargame-miniatures-and-terrain> (referer: None)
+INFO: Parse function called on https://www.kickstarter.com/projects/1540278662/wargame-miniatures-and-terrain
+DEBUG: Crawled (200) <GET https://api.kickstarter.com/v1/users/288212667?signature=1577510775.02b712caf7476052ed46c70e51c79a305b4199c4> (referer: https://www.kickstarter.com/projects/keepsmiling/snowpillow-betas)
+DEBUG: Crawled (200) <GET https://www.kickstarter.com/projects/sonofoak/city-of-mist-rpg-the-starter-box> (referer: None)
+INFO: Parse function called on https://www.kickstarter.com/projects/sonofoak/city-of-mist-rpg-the-starter-box
+DEBUG: Crawled (200) <GET https://api.kickstarter.com/v1/users/1540278662?signature=1577510777.beab0b70551f141eb62ec1af53280bd96f8a6a69> (referer: https://www.kickstarter.com/projects/1540278662/wargame-miniatures-and-terrain)
+DEBUG: Crawled (200) <GET https://www.kickstarter.com/projects/0-hr/nightingale-trio-starship-miniatures-and-maps> (referer: None)
+INFO: Parse function called on https://www.kickstarter.com/projects/0-hr/nightingale-trio-starship-miniatures-and-maps
+INFO: DUPLICATE CREATOR
+DEBUG: Crawled (200) <GET https://api.kickstarter.com/v1/users/1105356930?signature=1577510779.f508cec5d745c9b29317d1c1a86b4ba294dc1428> (referer: https://www.kickstarter.com/projects/sonofoak/city-of-mist-rpg-the-starter-box)
+DEBUG: Crawled (200) <GET https://www.kickstarter.com/projects/ConflictRPG/deckboxes> (referer: None)
+INFO: Parse function called on https://www.kickstarter.com/projects/ConflictRPG/deckboxes
+DEBUG: Crawled (200) <GET https://www.kickstarter.com/projects/epicenemies/cyberwars> (referer: None)
+INFO: Parse function called on https://www.kickstarter.com/projects/epicenemies/cyberwars
+INFO: DUPLICATE CREATOR
+DEBUG: Crawled (200) <GET https://api.kickstarter.com/v1/users/924247655?signature=1577510783.4d89e129b7c45a2ec9fe6d72d9e1e9c94c061ebe> (referer: https://www.kickstarter.com/projects/ConflictRPG/deckboxes)
+DEBUG: Crawled (200) <GET https://www.kickstarter.com/projects/1625564009/charm-universal-roleplaying-system> (referer: None)
+INFO: Parse function called on https://www.kickstarter.com/projects/1625564009/charm-universal-roleplaying-system
+INFO: DUPLICATE CREATOR
+DEBUG: Crawled (200) <GET https://www.kickstarter.com/projects/impeckable/plt> (referer: None)
+INFO: Parse function called on https://www.kickstarter.com/projects/impeckable/plt
+INFO: DUPLICATE CREATOR
+DEBUG: Crawled (200) <GET https://www.kickstarter.com/projects/metagamesco/slayers-for-hire> (referer: None)
+INFO: Parse function called on https://www.kickstarter.com/projects/metagamesco/slayers-for-hire
+DEBUG: Crawled (200) <GET https://www.kickstarter.com/projects/prestigeco/bicycle-eye> (referer: None)
+INFO: Parse function called on https://www.kickstarter.com/projects/prestigeco/bicycle-eye
+DEBUG: Crawled (200) <GET https://api.kickstarter.com/v1/users/933010249?signature=1577510790.685eaef05095da95502ac198ac06fee32d19d27e> (referer: https://www.kickstarter.com/projects/metagamesco/slayers-for-hire)
+DEBUG: Crawled (200) <GET https://api.kickstarter.com/v1/users/1312005107?signature=1577510792.29d25e96f461e41c3fdbe34dc69dbb3abbccff1c> (referer: https://www.kickstarter.com/projects/prestigeco/bicycle-eye)
+DEBUG: Crawled (200) <GET https://www.kickstarter.com/projects/1524624849/code-3-police-response> (referer: None)
+INFO: Parse function called on https://www.kickstarter.com/projects/1524624849/code-3-police-response
+INFO: DUPLICATE CREATOR
+DEBUG: Crawled (200) <GET https://www.kickstarter.com/projects/alicialane/gentlehands-a-tallahassee-play-space> (referer: None)
+INFO: Parse function called on https://www.kickstarter.com/projects/alicialane/gentlehands-a-tallahassee-play-space
+DEBUG: Crawled (200) <GET https://www.kickstarter.com/profile/1323948974/created> (referer: https://api.kickstarter.com/v1/users/1323948974?signature=1577510737.97595a01bf20efc08f887942b387d536afcde669)
+INFO: Parse creator called on https://www.kickstarter.com/profile/1323948974/created
+DEBUG: Scraped from <200 https://www.kickstarter.com/profile/1323948974/created>
+{'BackedProjectsCount': 27,
+ 'CreatedProjectsCount': 1,
+ 'Creator': 'Dustin Staats',
+ 'CreatorId': 1323948974,
+ 'MaxPledged': 957.0,
+ 'ProfileLink': 'https://www.kickstarter.com/profile/1323948974',
+ 'SucceedProjectsCount': 0}
+DEBUG: Crawled (200) <GET https://api.kickstarter.com/v1/users/1399778156?signature=1577510796.b8d76914c8a419e2bbfc4e0097c269b7046bf58d> (referer: https://www.kickstarter.com/projects/alicialane/gentlehands-a-tallahassee-play-space)
+DEBUG: Crawled (200) <GET https://www.kickstarter.com/projects/1327475206/dr-davenports-dirty-dice-game> (referer: None)
+INFO: Parse function called on https://www.kickstarter.com/projects/1327475206/dr-davenports-dirty-dice-game
+DEBUG: Crawled (200) <GET https://www.kickstarter.com/profile/1376475807/created> (referer: https://api.kickstarter.com/v1/users/1376475807?signature=1577510739.2b8b2b10f361cfd36a34f8a65ddc105c1a258fa3)
+INFO: Parse creator called on https://www.kickstarter.com/profile/1376475807/created
+DEBUG: Scraped from <200 https://www.kickstarter.com/profile/1376475807/created>
+{'BackedProjectsCount': 0,
+ 'CreatedProjectsCount': 1,
+ 'Creator': 'Timestamp Guy',
+ 'CreatorId': 1376475807,
+ 'MaxPledged': 3128.0,
+ 'ProfileLink': 'https://www.kickstarter.com/profile/1376475807',
+ 'SucceedProjectsCount': 1}
+DEBUG: Crawled (200) <GET https://api.kickstarter.com/v1/users/1327475206?signature=1577510799.8022a15a541ea2427e06a8a95e0d5c9528b2bc9d> (referer: https://www.kickstarter.com/projects/1327475206/dr-davenports-dirty-dice-game)
+DEBUG: Crawled (200) <GET https://www.kickstarter.com/profile/t3kk3y/created> (referer: https://api.kickstarter.com/v1/users/282927893?signature=1577510743.2ffec673c16903c7e553e0625a37d31eff98a058)
+INFO: Parse creator called on https://www.kickstarter.com/profile/t3kk3y/created
+DEBUG: Scraped from <200 https://www.kickstarter.com/profile/t3kk3y/created>
+{'BackedProjectsCount': 64,
+ 'CreatedProjectsCount': 4,
+ 'Creator': 'Dragon Knight Publishing',
+ 'CreatorId': 282927893,
+ 'MaxPledged': 1133.0,
+ 'ProfileLink': 'https://www.kickstarter.com/profile/t3kk3y',
+ 'SucceedProjectsCount': 2}
+INFO: Crawled 222 pages (at 59 pages/min), scraped 3 items (at 3 items/min)
+DEBUG: Crawled (200) <GET https://www.kickstarter.com/profile/pot/created> (referer: https://api.kickstarter.com/v1/users/2131007308?signature=1577510745.48d1874f75c9347c7bfa62976cbf039d86f004ba)
+INFO: Parse creator called on https://www.kickstarter.com/profile/pot/created
+DEBUG: Scraped from <200 https://www.kickstarter.com/profile/pot/created>
+{'BackedProjectsCount': 0,
+ 'CreatedProjectsCount': 1,
+ 'Creator': 'Robbie Kaplan',
+ 'CreatorId': 2131007308,
+ 'MaxPledged': 462.0,
+ 'ProfileLink': 'https://www.kickstarter.com/profile/pot',
+ 'SucceedProjectsCount': 0}
+DEBUG: Crawled (200) <GET https://www.kickstarter.com/profile/snipee/created> (referer: https://api.kickstarter.com/v1/users/324995297?signature=1577510746.93dd32ec8b8e280565cdff74f545064b0fa1c449)
+INFO: Parse creator called on https://www.kickstarter.com/profile/snipee/created
+DEBUG: Scraped from <200 https://www.kickstarter.com/profile/snipee/created>
+{'BackedProjectsCount': 0,
+ 'CreatedProjectsCount': 1,
+ 'Creator': 'Kelly @ SNIPEE',
+ 'CreatorId': 324995297,
+ 'MaxPledged': 21.0,
+ 'ProfileLink': 'https://www.kickstarter.com/profile/snipee',
+ 'SucceedProjectsCount': 0}
+DEBUG: Crawled (200) <GET https://www.kickstarter.com/profile/cartoonia/created> (referer: https://api.kickstarter.com/v1/users/679797360?signature=1577510748.6707542c13a866b3ea34f1e929ce8ea7920c02cc)
+INFO: Parse creator called on https://www.kickstarter.com/profile/cartoonia/created
+DEBUG: Scraped from <200 https://www.kickstarter.com/profile/cartoonia/created>
+{'BackedProjectsCount': 0,
+ 'CreatedProjectsCount': 1,
+ 'Creator': 'Jcartoonia',
+ 'CreatorId': 679797360,
+ 'MaxPledged': 16.0,
+ 'ProfileLink': 'https://www.kickstarter.com/profile/cartoonia',
+ 'SucceedProjectsCount': 0}
+DEBUG: Crawled (200) <GET https://www.kickstarter.com/profile/sidehustlegames/created> (referer: https://api.kickstarter.com/v1/users/1126945534?signature=1577510750.1f1b30ff8db7a9afd42c4b93dd49aa190765fa83)
+INFO: Parse creator called on https://www.kickstarter.com/profile/sidehustlegames/created
+DEBUG: Scraped from <200 https://www.kickstarter.com/profile/sidehustlegames/created>
+{'BackedProjectsCount': 0,
+ 'CreatedProjectsCount': 1,
+ 'Creator': 'Side Hustle',
+ 'CreatorId': 1126945534,
+ 'MaxPledged': 11467.0,
+ 'ProfileLink': 'https://www.kickstarter.com/profile/sidehustlegames',
+ 'SucceedProjectsCount': 1}
+DEBUG: Crawled (200) <GET https://www.kickstarter.com/projects/trinitycraft/schrodingers-cat> (referer: None)
+INFO: Parse function called on https://www.kickstarter.com/projects/trinitycraft/schrodingers-cat
+DEBUG: Crawled (200) <GET https://api.kickstarter.com/v1/users/1439575747?signature=1577510811.b0d2b7bcb6865274f596e46aa7b40bb8ced904c7> (referer: https://www.kickstarter.com/projects/trinitycraft/schrodingers-cat)
+DEBUG: Crawled (200) <GET https://www.kickstarter.com/profile/oldbean/created> (referer: https://api.kickstarter.com/v1/users/233699795?signature=1577510752.8e5bb664d69ac78a138b725cb8b31520bd30905a)
+INFO: Parse creator called on https://www.kickstarter.com/profile/oldbean/created
+DEBUG: Scraped from <200 https://www.kickstarter.com/profile/oldbean/created>
+{'BackedProjectsCount': 0,
+ 'CreatedProjectsCount': 1,
+ 'Creator': 'Old Bean Games',
+ 'CreatorId': 233699795,
+ 'MaxPledged': 53.0,
+ 'ProfileLink': 'https://www.kickstarter.com/profile/oldbean',
+ 'SucceedProjectsCount': 0}
+DEBUG: Crawled (200) <GET https://www.kickstarter.com/profile/magnategame/created> (referer: https://api.kickstarter.com/v1/users/1526289022?signature=1577510755.c5724934b87c4033f9bda0393c35a44b06b4d0e8)
+INFO: Parse creator called on https://www.kickstarter.com/profile/magnategame/created
+DEBUG: Scraped from <200 https://www.kickstarter.com/profile/magnategame/created>
+{'BackedProjectsCount': 1,
+ 'CreatedProjectsCount': 1,
+ 'Creator': 'Naylor Games LLC',
+ 'CreatorId': 1526289022,
+ 'MaxPledged': 63080.0,
+ 'ProfileLink': 'https://www.kickstarter.com/profile/magnategame',
+ 'SucceedProjectsCount': 1}
+DEBUG: Crawled (200) <GET https://www.kickstarter.com/profile/necromolds/created> (referer: https://api.kickstarter.com/v1/users/620665183?signature=1577510757.210fa05983431c994cc1aa2d701ff47bfe6806a7)
+INFO: Parse creator called on https://www.kickstarter.com/profile/necromolds/created
+DEBUG: Scraped from <200 https://www.kickstarter.com/profile/necromolds/created>
+{'BackedProjectsCount': 13,
+ 'CreatedProjectsCount': 1,
+ 'Creator': 'Necromolds LLC',
+ 'CreatorId': 620665183,
+ 'MaxPledged': 110983.0,
+ 'ProfileLink': 'https://www.kickstarter.com/profile/necromolds',
+ 'SucceedProjectsCount': 1}
+DEBUG: Crawled (200) <GET https://www.kickstarter.com/projects/1758784647/edice-2-an-universal-electronic-dice-for-tabletop-games> (referer: None)
+INFO: Parse function called on https://www.kickstarter.com/projects/1758784647/edice-2-an-universal-electronic-dice-for-tabletop-games
+INFO: DUPLICATE CREATOR
+DEBUG: Crawled (200) <GET https://www.kickstarter.com/profile/tinkerhousegames/created> (referer: https://api.kickstarter.com/v1/users/205899120?signature=1577510759.b7ed96a0ef85edb2007e46ed0aeb113523b20ad3)
+INFO: Parse creator called on https://www.kickstarter.com/profile/tinkerhousegames/created
+DEBUG: Scraped from <200 https://www.kickstarter.com/profile/tinkerhousegames/created>
+{'BackedProjectsCount': 42,
+ 'CreatedProjectsCount': 4,
+ 'Creator': 'TinkerHouse Games',
+ 'CreatorId': 205899120,
+ 'MaxPledged': 77820.0,
+ 'ProfileLink': 'https://www.kickstarter.com/profile/tinkerhousegames',
+ 'SucceedProjectsCount': 2}
+DEBUG: Crawled (200) <GET https://www.kickstarter.com/profile/curiositylab/created> (referer: https://api.kickstarter.com/v1/users/924805681?signature=1577510762.4187f2427fddb8e9e2bec5e2a0171406148f2d66)
+INFO: Parse creator called on https://www.kickstarter.com/profile/curiositylab/created
+DEBUG: Scraped from <200 https://www.kickstarter.com/profile/curiositylab/created>
+{'BackedProjectsCount': 9,
+ 'CreatedProjectsCount': 2,
+ 'Creator': 'C_riosity Lab',
+ 'CreatorId': 924805681,
+ 'MaxPledged': 6625.0,
+ 'ProfileLink': 'https://www.kickstarter.com/profile/curiositylab',
+ 'SucceedProjectsCount': 2}
+DEBUG: Crawled (200) <GET https://www.kickstarter.com/profile/pixidoku/created> (referer: https://api.kickstarter.com/v1/users/717479437?signature=1577510764.5f98089c20a369617012d1efbb7a0e36783b1d1e)
+INFO: Parse creator called on https://www.kickstarter.com/profile/pixidoku/created
+DEBUG: Scraped from <200 https://www.kickstarter.com/profile/pixidoku/created>
+{'BackedProjectsCount': 2,
+ 'CreatedProjectsCount': 2,
+ 'Creator': 'Heather Moore',
+ 'CreatorId': 717479437,
+ 'MaxPledged': 2442.0,
+ 'ProfileLink': 'https://www.kickstarter.com/profile/pixidoku',
+ 'SucceedProjectsCount': 0}
+DEBUG: Crawled (200) <GET https://www.kickstarter.com/profile/blazingsword/created> (referer: https://api.kickstarter.com/v1/users/1522389403?signature=1577510766.babb45dd6862f6560c15b028aa4233e745a581ae)
+INFO: Parse creator called on https://www.kickstarter.com/profile/blazingsword/created
+DEBUG: Scraped from <200 https://www.kickstarter.com/profile/blazingsword/created>
+{'BackedProjectsCount': 0,
+ 'CreatedProjectsCount': 1,
+ 'Creator': 'Blazing Sword Entertainment',
+ 'CreatorId': 1522389403,
+ 'MaxPledged': 68.0,
+ 'ProfileLink': 'https://www.kickstarter.com/profile/blazingsword',
+ 'SucceedProjectsCount': 0}
+DEBUG: Crawled (200) <GET https://www.kickstarter.com/profile/geargutzmekshop/created> (referer: https://api.kickstarter.com/v1/users/700905672?signature=1577510768.334f7a40eeb210f64827b6802805ca2c2da1c794)
+INFO: Parse creator called on https://www.kickstarter.com/profile/geargutzmekshop/created
+DEBUG: Scraped from <200 https://www.kickstarter.com/profile/geargutzmekshop/created>
+{'BackedProjectsCount': 3,
+ 'CreatedProjectsCount': 1,
+ 'Creator': 'Constantine Greanias',
+ 'CreatorId': 700905672,
+ 'MaxPledged': 45.0,
+ 'ProfileLink': 'https://www.kickstarter.com/profile/geargutzmekshop',
+ 'SucceedProjectsCount': 0}
+DEBUG: Crawled (200) <GET https://www.kickstarter.com/profile/themissioncards/created> (referer: https://api.kickstarter.com/v1/users/568315630?signature=1577510770.2fd1e3b614a291728953519180497202c9a328f2)
+INFO: Parse creator called on https://www.kickstarter.com/profile/themissioncards/created
+DEBUG: Scraped from <200 https://www.kickstarter.com/profile/themissioncards/created>
+{'BackedProjectsCount': 2,
+ 'CreatedProjectsCount': 1,
+ 'Creator': 'Adele &amp; Diane',
+ 'CreatorId': 568315630,
+ 'MaxPledged': 5460.0,
+ 'ProfileLink': 'https://www.kickstarter.com/profile/themissioncards',
+ 'SucceedProjectsCount': 0}
+DEBUG: Crawled (200) <GET https://www.kickstarter.com/profile/loteria/created> (referer: https://api.kickstarter.com/v1/users/1080475497?signature=1577510772.1a05124838802874699e57b72014694c75750a75)
+INFO: Parse creator called on https://www.kickstarter.com/profile/loteria/created
+DEBUG: Scraped from <200 https://www.kickstarter.com/profile/loteria/created>
+{'BackedProjectsCount': 0,
+ 'CreatedProjectsCount': 1,
+ 'Creator': 'La Loteria Edicion Oscura',
+ 'CreatorId': 1080475497,
+ 'MaxPledged': 74.0,
+ 'ProfileLink': 'https://www.kickstarter.com/profile/loteria',
+ 'SucceedProjectsCount': 0}
+DEBUG: Crawled (200) <GET https://www.kickstarter.com/profile/travelinggypsies/created> (referer: https://api.kickstarter.com/v1/users/1728106939?signature=1577510774.364c9d0503a813d60fa43fd1205da7b559dec98e)
+INFO: Parse creator called on https://www.kickstarter.com/profile/travelinggypsies/created
+DEBUG: Scraped from <200 https://www.kickstarter.com/profile/travelinggypsies/created>
+{'BackedProjectsCount': 0,
+ 'CreatedProjectsCount': 1,
+ 'Creator': 'Traveling Gypsies',
+ 'CreatorId': 1728106939,
+ 'MaxPledged': 174.0,
+ 'ProfileLink': 'https://www.kickstarter.com/profile/travelinggypsies',
+ 'SucceedProjectsCount': 0}
+DEBUG: Crawled (200) <GET https://www.kickstarter.com/profile/keepsmiling/created> (referer: https://api.kickstarter.com/v1/users/288212667?signature=1577510775.02b712caf7476052ed46c70e51c79a305b4199c4)
+INFO: Parse creator called on https://www.kickstarter.com/profile/keepsmiling/created
+DEBUG: Scraped from <200 https://www.kickstarter.com/profile/keepsmiling/created>
+{'BackedProjectsCount': 0,
+ 'CreatedProjectsCount': 1,
+ 'Creator': 'Jeni Sidwell',
+ 'CreatorId': 288212667,
+ 'MaxPledged': 1176.0,
+ 'ProfileLink': 'https://www.kickstarter.com/profile/keepsmiling',
+ 'SucceedProjectsCount': 0}
+DEBUG: Crawled (200) <GET https://www.kickstarter.com/profile/1540278662/created> (referer: https://api.kickstarter.com/v1/users/1540278662?signature=1577510777.beab0b70551f141eb62ec1af53280bd96f8a6a69)
+INFO: Parse creator called on https://www.kickstarter.com/profile/1540278662/created
+DEBUG: Scraped from <200 https://www.kickstarter.com/profile/1540278662/created>
+{'BackedProjectsCount': 0,
+ 'CreatedProjectsCount': 1,
+ 'Creator': 'Mikey Mini',
+ 'CreatorId': 1540278662,
+ 'MaxPledged': 61.0,
+ 'ProfileLink': 'https://www.kickstarter.com/profile/1540278662',
+ 'SucceedProjectsCount': 0}
+DEBUG: Crawled (200) <GET https://www.kickstarter.com/projects/1755168543/talos-collapse> (referer: None)
+INFO: Parse function called on https://www.kickstarter.com/projects/1755168543/talos-collapse
+DEBUG: Crawled (200) <GET https://api.kickstarter.com/v1/users/1755168543?signature=1577510840.40d1f8b287d3a1f6e887cd8d5fd87d35509decb2> (referer: https://www.kickstarter.com/projects/1755168543/talos-collapse)
+DEBUG: Crawled (200) <GET https://www.kickstarter.com/profile/sonofoak/created> (referer: https://api.kickstarter.com/v1/users/1105356930?signature=1577510779.f508cec5d745c9b29317d1c1a86b4ba294dc1428)
+INFO: Parse creator called on https://www.kickstarter.com/profile/sonofoak/created
+DEBUG: Scraped from <200 https://www.kickstarter.com/profile/sonofoak/created>
+{'BackedProjectsCount': 16,
+ 'CreatedProjectsCount': 4,
+ 'Creator': 'Amít Moshe / Son of Oak Game Studio',
+ 'CreatorId': 1105356930,
+ 'MaxPledged': 182969.8,
+ 'ProfileLink': 'https://www.kickstarter.com/profile/sonofoak',
+ 'SucceedProjectsCount': 3}
+DEBUG: Crawled (200) <GET https://www.kickstarter.com/projects/2060803491/titanic-tarot-cards> (referer: None)
+INFO: Parse function called on https://www.kickstarter.com/projects/2060803491/titanic-tarot-cards
+DEBUG: Crawled (200) <GET https://api.kickstarter.com/v1/users/2060803491?signature=1577510845.801ffc630153987c112f8a14d2639acc2fc1bb22> (referer: https://www.kickstarter.com/projects/2060803491/titanic-tarot-cards)
+DEBUG: Crawled (200) <GET https://www.kickstarter.com/profile/ConflictRPG/created> (referer: https://api.kickstarter.com/v1/users/924247655?signature=1577510783.4d89e129b7c45a2ec9fe6d72d9e1e9c94c061ebe)
+INFO: Parse creator called on https://www.kickstarter.com/profile/ConflictRPG/created
+DEBUG: Scraped from <200 https://www.kickstarter.com/profile/ConflictRPG/created>
+{'BackedProjectsCount': 88,
+ 'CreatedProjectsCount': 4,
+ 'Creator': 'Conflict Games',
+ 'CreatorId': 924247655,
+ 'MaxPledged': 50863.52,
+ 'ProfileLink': 'https://www.kickstarter.com/profile/ConflictRPG',
+ 'SucceedProjectsCount': 3}
+DEBUG: Crawled (200) <GET https://www.kickstarter.com/projects/563681582/curse-of-roslof-keep-digital-bonus-content> (referer: None)
+INFO: Parse function called on https://www.kickstarter.com/projects/563681582/curse-of-roslof-keep-digital-bonus-content
+INFO: DUPLICATE CREATOR
+DEBUG: Crawled (200) <GET https://www.kickstarter.com/projects/crytivogames/football-story> (referer: None)
+INFO: Parse function called on https://www.kickstarter.com/projects/crytivogames/football-story
+DEBUG: Crawled (200) <GET https://api.kickstarter.com/v1/users/878645917?signature=1577510849.3d7940bfd810e0d411966bcc9500c2f5977022c3> (referer: https://www.kickstarter.com/projects/crytivogames/football-story)
+DEBUG: Crawled (200) <GET https://www.kickstarter.com/profile/metagamesco/created> (referer: https://api.kickstarter.com/v1/users/933010249?signature=1577510790.685eaef05095da95502ac198ac06fee32d19d27e)
+INFO: Parse creator called on https://www.kickstarter.com/profile/metagamesco/created
+DEBUG: Scraped from <200 https://www.kickstarter.com/profile/metagamesco/created>
+{'BackedProjectsCount': 0,
+ 'CreatedProjectsCount': 1,
+ 'Creator': 'Ryan at Meta Games',
+ 'CreatorId': 933010249,
+ 'MaxPledged': 9388.0,
+ 'ProfileLink': 'https://www.kickstarter.com/profile/metagamesco',
+ 'SucceedProjectsCount': 0}
+DEBUG: Crawled (200) <GET https://www.kickstarter.com/profile/prestigeco/created> (referer: https://api.kickstarter.com/v1/users/1312005107?signature=1577510792.29d25e96f461e41c3fdbe34dc69dbb3abbccff1c)
+INFO: Parse creator called on https://www.kickstarter.com/profile/prestigeco/created
+DEBUG: Scraped from <200 https://www.kickstarter.com/profile/prestigeco/created>
+{'BackedProjectsCount': 0,
+ 'CreatedProjectsCount': 1,
+ 'Creator': 'Prestige',
+ 'CreatorId': 1312005107,
+ 'MaxPledged': 582.0,
+ 'ProfileLink': 'https://www.kickstarter.com/profile/prestigeco',
+ 'SucceedProjectsCount': 0}
+DEBUG: Crawled (200) <GET https://www.kickstarter.com/projects/ecaroth/dungeonmats-neoprene-mats-for-rpg-and-war-gaming> (referer: None)
+INFO: Parse function called on https://www.kickstarter.com/projects/ecaroth/dungeonmats-neoprene-mats-for-rpg-and-war-gaming
+INFO: DUPLICATE CREATOR
+DEBUG: Crawled (200) <GET https://www.kickstarter.com/projects/vujadeplayingcards/jin-and-tonic-playing-cards> (referer: None)
+INFO: Parse function called on https://www.kickstarter.com/projects/vujadeplayingcards/jin-and-tonic-playing-cards
+DEBUG: Crawled (200) <GET https://api.kickstarter.com/v1/users/1667271468?signature=1577510858.13a9ff275928e12d2ad3e43af7f564c03978e4d8> (referer: https://www.kickstarter.com/projects/vujadeplayingcards/jin-and-tonic-playing-cards)
+DEBUG: Crawled (200) <GET https://www.kickstarter.com/profile/alicialane/created> (referer: https://api.kickstarter.com/v1/users/1399778156?signature=1577510796.b8d76914c8a419e2bbfc4e0097c269b7046bf58d)
+INFO: Parse creator called on https://www.kickstarter.com/profile/alicialane/created
+DEBUG: Scraped from <200 https://www.kickstarter.com/profile/alicialane/created>
+{'BackedProjectsCount': 0,
+ 'CreatedProjectsCount': 1,
+ 'Creator': 'Alicia',
+ 'CreatorId': 1399778156,
+ 'MaxPledged': 5340.0,
+ 'ProfileLink': 'https://www.kickstarter.com/profile/alicialane',
+ 'SucceedProjectsCount': 1}
+DEBUG: Crawled (200) <GET https://www.kickstarter.com/projects/d52gaming/52-dragons-a-fantasy-card-game-of-battling-dragons> (referer: None)
+INFO: Parse function called on https://www.kickstarter.com/projects/d52gaming/52-dragons-a-fantasy-card-game-of-battling-dragons
+DEBUG: Crawled (200) <GET https://api.kickstarter.com/v1/users/809667887?signature=1577510861.03a44b82e550c368c917fa5ea814784ad6237789> (referer: https://www.kickstarter.com/projects/d52gaming/52-dragons-a-fantasy-card-game-of-battling-dragons)
+INFO: Crawled 259 pages (at 37 pages/min), scraped 25 items (at 22 items/min)
+DEBUG: Crawled (200) <GET https://www.kickstarter.com/profile/1327475206/created> (referer: https://api.kickstarter.com/v1/users/1327475206?signature=1577510799.8022a15a541ea2427e06a8a95e0d5c9528b2bc9d)
+INFO: Parse creator called on https://www.kickstarter.com/profile/1327475206/created
+DEBUG: Scraped from <200 https://www.kickstarter.com/profile/1327475206/created>
+{'BackedProjectsCount': 1,
+ 'CreatedProjectsCount': 1,
+ 'Creator': 'KKrause',
+ 'CreatorId': 1327475206,
+ 'MaxPledged': 94.0,
+ 'ProfileLink': 'https://www.kickstarter.com/profile/1327475206',
+ 'SucceedProjectsCount': 0}
+DEBUG: Crawled (200) <GET https://www.kickstarter.com/projects/sinopapublishing/game-master-holiday-post-card-campaign-recognizeksru> (referer: None)
+INFO: Parse function called on https://www.kickstarter.com/projects/sinopapublishing/game-master-holiday-post-card-campaign-recognizeksru
+INFO: DUPLICATE CREATOR
+DEBUG: Crawled (200) <GET https://www.kickstarter.com/projects/monsterszone/monters-zone-game> (referer: None)
+INFO: Parse function called on https://www.kickstarter.com/projects/monsterszone/monters-zone-game
+DEBUG: Crawled (200) <GET https://api.kickstarter.com/v1/users/742914022?signature=1577510867.b0eb863ca401b75174d1f1e7b5da6a7b340c9457> (referer: https://www.kickstarter.com/projects/monsterszone/monters-zone-game)
+DEBUG: Crawled (200) <GET https://www.kickstarter.com/projects/wolfepacific/coaster-cubestm> (referer: None)
+INFO: Parse function called on https://www.kickstarter.com/projects/wolfepacific/coaster-cubestm
+DEBUG: Crawled (200) <GET https://api.kickstarter.com/v1/users/896534569?signature=1577510869.571b4daa1466f2b8a9e0b5596b8a403aaee583c2> (referer: https://www.kickstarter.com/projects/wolfepacific/coaster-cubestm)
+DEBUG: Crawled (200) <GET https://www.kickstarter.com/projects/wordsloth/word-sloth> (referer: None)
+INFO: Parse function called on https://www.kickstarter.com/projects/wordsloth/word-sloth
+DEBUG: Crawled (200) <GET https://api.kickstarter.com/v1/users/1906830764?signature=1577510871.9d5fa5e19932b7f14ea19de5384c8b430b9789f3> (referer: https://www.kickstarter.com/projects/wordsloth/word-sloth)
+DEBUG: Crawled (200) <GET https://www.kickstarter.com/profile/trinitycraft/created> (referer: https://api.kickstarter.com/v1/users/1439575747?signature=1577510811.b0d2b7bcb6865274f596e46aa7b40bb8ced904c7)
+INFO: Parse creator called on https://www.kickstarter.com/profile/trinitycraft/created
+DEBUG: Scraped from <200 https://www.kickstarter.com/profile/trinitycraft/created>
+{'BackedProjectsCount': 173,
+ 'CreatedProjectsCount': 1,
+ 'Creator': 'Matthew Wyatt',
+ 'CreatorId': 1439575747,
+ 'MaxPledged': 2886.0,
+ 'ProfileLink': 'https://www.kickstarter.com/profile/trinitycraft',
+ 'SucceedProjectsCount': 1}
+DEBUG: Crawled (200) <GET https://www.kickstarter.com/profile/1755168543/created> (referer: https://api.kickstarter.com/v1/users/1755168543?signature=1577510840.40d1f8b287d3a1f6e887cd8d5fd87d35509decb2)
+INFO: Parse creator called on https://www.kickstarter.com/profile/1755168543/created
+DEBUG: Scraped from <200 https://www.kickstarter.com/profile/1755168543/created>
+{'BackedProjectsCount': 0,
+ 'CreatedProjectsCount': 1,
+ 'Creator': 'Talos: Collapse',
+ 'CreatorId': 1755168543,
+ 'MaxPledged': 15163.0,
+ 'ProfileLink': 'https://www.kickstarter.com/profile/1755168543',
+ 'SucceedProjectsCount': 0}
+DEBUG: Crawled (200) <GET https://www.kickstarter.com/profile/2060803491/created> (referer: https://api.kickstarter.com/v1/users/2060803491?signature=1577510845.801ffc630153987c112f8a14d2639acc2fc1bb22)
+INFO: Parse creator called on https://www.kickstarter.com/profile/2060803491/created
+DEBUG: Scraped from <200 https://www.kickstarter.com/profile/2060803491/created>
+{'BackedProjectsCount': 39,
+ 'CreatedProjectsCount': 19,
+ 'Creator': 'RJ Tomlinson',
+ 'CreatorId': 2060803491,
+ 'MaxPledged': 37460.01,
+ 'ProfileLink': 'https://www.kickstarter.com/profile/2060803491',
+ 'SucceedProjectsCount': 12}
+DEBUG: Crawled (200) <GET https://www.kickstarter.com/profile/vujadeplayingcards/created> (referer: https://api.kickstarter.com/v1/users/1667271468?signature=1577510858.13a9ff275928e12d2ad3e43af7f564c03978e4d8)
+DEBUG: Crawled (200) <GET https://www.kickstarter.com/profile/crytivogames/created> (referer: https://api.kickstarter.com/v1/users/878645917?signature=1577510849.3d7940bfd810e0d411966bcc9500c2f5977022c3)
+INFO: Parse creator called on https://www.kickstarter.com/profile/vujadeplayingcards/created
+DEBUG: Scraped from <200 https://www.kickstarter.com/profile/vujadeplayingcards/created>
+{'BackedProjectsCount': 0,
+ 'CreatedProjectsCount': 1,
+ 'Creator': 'VUJADE Playing Cards',
+ 'CreatorId': 1667271468,
+ 'MaxPledged': 7228.0,
+ 'ProfileLink': 'https://www.kickstarter.com/profile/vujadeplayingcards',
+ 'SucceedProjectsCount': 1}
+INFO: Parse creator called on https://www.kickstarter.com/profile/crytivogames/created
+DEBUG: Scraped from <200 https://www.kickstarter.com/profile/crytivogames/created>
+{'BackedProjectsCount': 8,
+ 'CreatedProjectsCount': 2,
+ 'Creator': 'Crytivo Games',
+ 'CreatorId': 878645917,
+ 'MaxPledged': 387345.1,
+ 'ProfileLink': 'https://www.kickstarter.com/profile/crytivogames',
+ 'SucceedProjectsCount': 1}
+DEBUG: Crawled (200) <GET https://www.kickstarter.com/profile/d52gaming/created> (referer: https://api.kickstarter.com/v1/users/809667887?signature=1577510861.03a44b82e550c368c917fa5ea814784ad6237789)
+INFO: Parse creator called on https://www.kickstarter.com/profile/d52gaming/created
+DEBUG: Scraped from <200 https://www.kickstarter.com/profile/d52gaming/created>
+{'BackedProjectsCount': 11,
+ 'CreatedProjectsCount': 1,
+ 'Creator': 'D52 Gaming',
+ 'CreatorId': 809667887,
+ 'MaxPledged': 3558.0,
+ 'ProfileLink': 'https://www.kickstarter.com/profile/d52gaming',
+ 'SucceedProjectsCount': 1}
+DEBUG: Crawled (200) <GET https://www.kickstarter.com/profile/monsterszone/created> (referer: https://api.kickstarter.com/v1/users/742914022?signature=1577510867.b0eb863ca401b75174d1f1e7b5da6a7b340c9457)
+INFO: Parse creator called on https://www.kickstarter.com/profile/monsterszone/created
+DEBUG: Scraped from <200 https://www.kickstarter.com/profile/monsterszone/created>
+{'BackedProjectsCount': 0,
+ 'CreatedProjectsCount': 1,
+ 'Creator': 'Azim',
+ 'CreatorId': 742914022,
+ 'MaxPledged': 63.0,
+ 'ProfileLink': 'https://www.kickstarter.com/profile/monsterszone',
+ 'SucceedProjectsCount': 0}
+DEBUG: Crawled (200) <GET https://www.kickstarter.com/profile/wolfepacific/created> (referer: https://api.kickstarter.com/v1/users/896534569?signature=1577510869.571b4daa1466f2b8a9e0b5596b8a403aaee583c2)
+INFO: Parse creator called on https://www.kickstarter.com/profile/wolfepacific/created
+DEBUG: Scraped from <200 https://www.kickstarter.com/profile/wolfepacific/created>
+{'BackedProjectsCount': 2,
+ 'CreatedProjectsCount': 1,
+ 'Creator': 'Wolfe Pacific LLC',
+ 'CreatorId': 896534569,
+ 'MaxPledged': 1773.0,
+ 'ProfileLink': 'https://www.kickstarter.com/profile/wolfepacific',
+ 'SucceedProjectsCount': 1}
+DEBUG: Crawled (200) <GET https://www.kickstarter.com/profile/wordsloth/created> (referer: https://api.kickstarter.com/v1/users/1906830764?signature=1577510871.9d5fa5e19932b7f14ea19de5384c8b430b9789f3)
+INFO: Parse creator called on https://www.kickstarter.com/profile/wordsloth/created
+DEBUG: Scraped from <200 https://www.kickstarter.com/profile/wordsloth/created>
+{'BackedProjectsCount': 0,
+ 'CreatedProjectsCount': 1,
+ 'Creator': 'Bret Durham',
+ 'CreatorId': 1906830764,
+ 'MaxPledged': 16.0,
+ 'ProfileLink': 'https://www.kickstarter.com/profile/wordsloth',
+ 'SucceedProjectsCount': 0}
+INFO: Closing spider (finished)
+INFO: Dumping Scrapy stats:
+{'downloader/request_bytes': 232660,
+ 'downloader/request_count': 276,
+ 'downloader/request_method_count/GET': 276,
+ 'downloader/response_bytes': 21871607,
+ 'downloader/response_count': 276,
+ 'downloader/response_status_count/200': 276,
+ 'elapsed_time_seconds': 446.404629,
+ 'finish_reason': 'finished',
+ 'finish_time': datetime.datetime(2019, 12, 27, 5, 28, 10, 1656),
+ 'item_scraped_count': 35,
+ 'log_count/DEBUG': 311,
+ 'log_count/ERROR': 1,
+ 'log_count/INFO': 426,
+ 'memusage/max': 1250979840,
+ 'memusage/startup': 1250979840,
+ 'request_depth_max': 2,
+ 'response_received_count': 276,
+ 'scheduler/dequeued': 276,
+ 'scheduler/dequeued/memory': 276,
+ 'scheduler/enqueued': 276,
+ 'scheduler/enqueued/memory': 276,
+ 'spider_exceptions/IndexError': 1,
+ 'start_time': datetime.datetime(2019, 12, 27, 5, 20, 43, 597027)}
+INFO: Spider closed (finished)
