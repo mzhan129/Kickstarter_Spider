@@ -1,0 +1,198 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ChangeListManager">
+    <list default="true" id="37ac0c36-f206-4e9f-a635-1a25927a1dfc" name="Default" comment="" />
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="Python Script" />
+      </list>
+    </option>
+  </component>
+  <component name="JsBuildToolGruntFileManager" detection-done="true" sorting="DEFINITION_ORDER" />
+  <component name="JsBuildToolPackageJson" detection-done="true" sorting="DEFINITION_ORDER" />
+  <component name="JsGulpfileManager">
+    <detection-done>true</detection-done>
+    <sorting>DEFINITION_ORDER</sorting>
+  </component>
+  <component name="ProjectFrameBounds">
+    <option name="y" value="23" />
+    <option name="width" value="1280" />
+    <option name="height" value="723" />
+  </component>
+  <component name="ProjectId" id="1XmBYw7dKVSV30sk4OcQXU0MeuC" />
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showExcludedFiles" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
+  <component name="PropertiesComponent">
+    <property name="WebServerToolWindowFactoryState" value="false" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/../combine_temp" />
+    <property name="nodejs_interpreter_path.stuck_in_default_project" value="undefined stuck path" />
+    <property name="settings.editor.selected.configurable" value="com.jetbrains.python.configuration.PyActiveSdkModuleConfigurable" />
+  </component>
+  <component name="RunManager" selected="Python.test">
+    <configuration name="addProjectID" type="PythonConfigurationType" factoryName="Python" temporary="true">
+      <module name="ScrapyKickstarter" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/addProjectID.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
+      <option name="REDIRECT_INPUT" value="false" />
+      <option name="INPUT_FILE" value="" />
+      <method v="2" />
+    </configuration>
+    <configuration name="run" type="PythonConfigurationType" factoryName="Python" nameIsGenerated="true">
+      <module name="ScrapyKickstarter" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="/usr/bin/python3.6" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
+      <option name="IS_MODULE_SDK" value="false" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/run.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
+      <option name="REDIRECT_INPUT" value="false" />
+      <option name="INPUT_FILE" value="" />
+      <method v="2" />
+    </configuration>
+    <configuration name="test" type="PythonConfigurationType" factoryName="Python" temporary="true">
+      <module name="ScrapyKickstarter" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/test.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
+      <option name="REDIRECT_INPUT" value="false" />
+      <option name="INPUT_FILE" value="" />
+      <method v="2" />
+    </configuration>
+    <list>
+      <item itemvalue="Python.addProjectID" />
+      <item itemvalue="Python.run" />
+      <item itemvalue="Python.test" />
+    </list>
+    <recent_temporary>
+      <list>
+        <item itemvalue="Python.test" />
+        <item itemvalue="Python.addProjectID" />
+      </list>
+    </recent_temporary>
+  </component>
+  <component name="ServiceViewManager">
+    <option name="viewStates">
+      <list>
+        <serviceView>
+          <treeState>
+            <expand />
+            <select />
+          </treeState>
+        </serviceView>
+      </list>
+    </option>
+  </component>
+  <component name="SvnConfiguration">
+    <configuration />
+  </component>
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="37ac0c36-f206-4e9f-a635-1a25927a1dfc" name="Default" comment="" />
+      <created>1544554239808</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1544554239808</updated>
+    </task>
+    <servers />
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="1" />
+  </component>
+  <component name="WindowStateProjectService">
+    <state x="450" y="114" key="#com.intellij.execution.impl.EditConfigurationsDialog" timestamp="1581642991976">
+      <screen x="67" y="27" width="1851" height="861" />
+    </state>
+    <state x="450" y="114" key="#com.intellij.execution.impl.EditConfigurationsDialog/67.27.1851.861@67.27.1851.861" timestamp="1581642991976" />
+    <state x="667" y="261" width="640" height="390" key="#com.intellij.fileTypes.FileTypeChooser" timestamp="1581651167773">
+      <screen x="67" y="27" width="1851" height="861" />
+    </state>
+    <state x="667" y="261" width="640" height="390" key="#com.intellij.fileTypes.FileTypeChooser/67.27.1851.861@67.27.1851.861" timestamp="1581651167773" />
+    <state x="775" y="214" width="424" height="484" key="FileChooserDialogImpl" timestamp="1581703527782">
+      <screen x="67" y="27" width="1851" height="861" />
+    </state>
+    <state x="775" y="214" width="424" height="484" key="FileChooserDialogImpl/67.27.1851.861@67.27.1851.861" timestamp="1581703527782" />
+    <state width="1828" height="267" key="GridCell.Tab.0.bottom" timestamp="1581718321695">
+      <screen x="67" y="27" width="1851" height="861" />
+    </state>
+    <state width="1828" height="267" key="GridCell.Tab.0.bottom/67.27.1851.861@67.27.1851.861" timestamp="1581718321695" />
+    <state width="1828" height="267" key="GridCell.Tab.0.center" timestamp="1581718321686">
+      <screen x="67" y="27" width="1851" height="861" />
+    </state>
+    <state width="1828" height="267" key="GridCell.Tab.0.center/67.27.1851.861@67.27.1851.861" timestamp="1581718321686" />
+    <state width="1828" height="267" key="GridCell.Tab.0.left" timestamp="1581718321682">
+      <screen x="67" y="27" width="1851" height="861" />
+    </state>
+    <state width="1828" height="267" key="GridCell.Tab.0.left/67.27.1851.861@67.27.1851.861" timestamp="1581718321682" />
+    <state width="1828" height="267" key="GridCell.Tab.0.right" timestamp="1581718321692">
+      <screen x="67" y="27" width="1851" height="861" />
+    </state>
+    <state width="1828" height="267" key="GridCell.Tab.0.right/67.27.1851.861@67.27.1851.861" timestamp="1581718321692" />
+    <state width="1828" height="267" key="GridCell.Tab.1.bottom" timestamp="1581718321706">
+      <screen x="67" y="27" width="1851" height="861" />
+    </state>
+    <state width="1828" height="267" key="GridCell.Tab.1.bottom/67.27.1851.861@67.27.1851.861" timestamp="1581718321706" />
+    <state width="1828" height="267" key="GridCell.Tab.1.center" timestamp="1581718321701">
+      <screen x="67" y="27" width="1851" height="861" />
+    </state>
+    <state width="1828" height="267" key="GridCell.Tab.1.center/67.27.1851.861@67.27.1851.861" timestamp="1581718321701" />
+    <state width="1828" height="267" key="GridCell.Tab.1.left" timestamp="1581718321698">
+      <screen x="67" y="27" width="1851" height="861" />
+    </state>
+    <state width="1828" height="267" key="GridCell.Tab.1.left/67.27.1851.861@67.27.1851.861" timestamp="1581718321698" />
+    <state width="1828" height="267" key="GridCell.Tab.1.right" timestamp="1581718321704">
+      <screen x="67" y="27" width="1851" height="861" />
+    </state>
+    <state width="1828" height="267" key="GridCell.Tab.1.right/67.27.1851.861@67.27.1851.861" timestamp="1581718321704" />
+    <state x="481" y="91" key="SettingsEditor" timestamp="1581643003077">
+      <screen x="67" y="27" width="1851" height="861" />
+    </state>
+    <state x="481" y="91" key="SettingsEditor/67.27.1851.861@67.27.1851.861" timestamp="1581643003077" />
+    <state x="648" y="284" key="com.intellij.ide.util.TipDialog" timestamp="1581772924967">
+      <screen x="67" y="27" width="1851" height="861" />
+    </state>
+    <state x="648" y="284" key="com.intellij.ide.util.TipDialog/67.27.1851.861@67.27.1851.861" timestamp="1581772924967" />
+  </component>
+</project>
